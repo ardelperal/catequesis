@@ -1,0 +1,63 @@
+/* ===== Reset básico ===== */
+html, body { margin: 0; padding: 0; }
+img, svg, canvas { max-width: 100%; height: auto; }
+
+/* ===== Vista en pantalla (simula folio) ===== */
+body { background: #eceff1; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+.sheet {
+  width: 210mm;              /* A4 ancho */
+  min-height: 297mm;         /* A4 alto */
+  margin: 10mm auto;         /* marco visual en pantalla */
+  background: #fff; color: #111;
+  box-shadow: 0 0 8px rgba(0,0,0,.15);
+  box-sizing: border-box;
+  padding: 12mm;             /* margen interior útil */
+  position: relative;
+}
+
+/* Auxiliares */
+.page-break { break-before: page; page-break-before: always; }
+.no-print { display: none !important; }
+
+/* Marca de agua opcional si se usa como <img class="marca-agua"> */
+.marca-agua {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover; opacity: .08; z-index: 0;
+}
+.contenido { position: relative; z-index: 1; }
+
+/* ===== Modo impresión ===== */
+@media print {
+  /* Tamaño real y márgenes del folio */
+  @page { size: A4 portrait; margin: 12mm; }
+
+  html, body { width: 210mm; height: 297mm; background: none; }
+  body { margin: 0; }
+
+  /* Cada .sheet se trata como una página completa */
+  .sheet {
+    margin: 0 !important;
+    box-shadow: none !important;
+    break-inside: avoid-page;     /* moderno */
+    page-break-inside: avoid;     /* legacy */
+  }
+  .sheet + .sheet {
+    break-before: page;           /* moderno */
+    page-break-before: always;    /* legacy */
+  }
+
+  /* Evitar cortes feos dentro de bloques habituales */
+  h1, h2, h3, h4, p, ul, ol, table, figure, blockquote {
+    break-inside: avoid; page-break-inside: avoid;
+  }
+
+  /* Mantener colores/fondos donde el navegador lo permita */
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Neutralizar alturas de viewport que rompen la impresión */
+  [style*="100vh"], .vh-100 { height: auto !important; min-height: auto !important; }
+}
+
+/* Página nombrada opcional por si se usa */
+@page ficha { size: A4 portrait; margin: 12mm; }
