@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ester - La reina valiente</title>
+    <style>
+        @page { size: A4; margin: 16mm; }
+        * { box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f9f9f9; 
+            line-height: 1.6;
+            text-align: justify;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #6a5acd, #9370db);
+            color: white;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .header img {
+            width: 120px;
+            height: 160px;
+            margin: 10px auto;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: white;
+            display: block;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .prayer-box {
+            background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
+            border: 2px solid #4caf50;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .activity-box {
+            background: linear-gradient(135deg, #fff3e0, #ffeaa7);
+            border: 2px solid #ff9800;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .reflection-box {
+            background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+            border: 2px solid #9c27b0;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .drawing-area {
+            border: 2px dashed #ccc;
+            height: 150px;
+            margin: 10px 0;
+            background: white;
+            border-radius: 5px;
+        }
+        
+        .lines {
+            border-bottom: 1px solid #ddd;
+            height: 25px;
+            margin: 8px 0;
+        }
+        
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .bible-quote {
+            font-style: italic;
+            color: #666;
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255,255,255,0.7);
+            border-left: 4px solid #4caf50;
+            border-radius: 4px;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        @media print {
+            body { background: white; }
+            .header, .prayer-box, .activity-box, .reflection-box, .section {
+                box-shadow: none;
+                border: 1px solid #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="meta-info">
+        <span>Nombre: ____________________</span>
+        <span>Fecha: ____________________</span>
+    </div>
+    
+    <div class="header">
+        <h1>👑 Ester - La reina valiente 👑</h1>
+        <img src="/assets/characters/ester.png" alt="Ester" />
+    </div>
+    
+    <div class="prayer-box">
+        <h2>🙏 Oración Inicial</h2>
+        <p><strong>"Señor Jesús, ayúdanos a ser valientes como Ester para defender lo que es justo. Que sepamos confiar en ti cuando tengamos miedo. Amén."</strong></p>
+        <div class="bible-quote">
+            <strong>CITA_BIBLICA:</strong> "¿Y quién sabe si para esta hora has llegado al reino?" - Ester 4:14
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>📚 La Historia de Ester</h2>
+        <p><strong>Ester</strong> era una joven judía muy hermosa que vivía en Persia con su primo Mardoqueo. Cuando el rey Asuero buscaba una nueva reina, Ester fue elegida, pero mantuvo en secreto que era judía.</p>
+        <p>Un hombre malvado llamado <strong>Amán</strong> odiaba a los judíos y convenció al rey para que firmara una orden para matarlos a todos. Mardoqueo le pidió a Ester que hablara con el rey para salvar a su pueblo.</p>
+        <p>Aunque era peligroso presentarse ante el rey sin ser llamada, <strong>Ester tuvo valor</strong>. Ayunó, oró y finalmente reveló al rey el plan malvado de Amán. El rey castigó a Amán y salvó al pueblo judío.</p>
+        <p>La historia de Ester nos enseña que Dios puede usar a cualquier persona, sin importar su edad o posición, para hacer grandes cosas cuando confiamos en Él y actuamos con valentía.</p>
+    </div>
+    
+    <div class="activity-box">
+        <h2>🎨 Actividad Creativa</h2>
+        <p><strong>Dibuja a Ester siendo valiente:</strong></p>
+        <p>Puedes dibujar a Ester hablando con el rey, orando antes de tomar su decisión, o salvando a su pueblo.</p>
+        <div class="drawing-area"></div>
+        <p><strong>Escribe una frase sobre el valor:</strong></p>
+        <div class="lines"></div>
+        <div class="lines"></div>
+    </div>
+    
+    <div class="reflection-box">
+        <h2>💭 Reflexión</h2>
+        <p><strong>¿Por qué crees que Ester tuvo miedo al principio?</strong></p>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <p><strong>¿Cómo puedes ayudar a otros cuando están en problemas?</strong></p>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <p><strong>¿Qué situaciones requieren valor en tu vida diaria?</strong></p>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <p><strong>💡 Mensaje Principal:</strong> Dios nos da valor para hacer lo correcto, incluso cuando tenemos miedo. Como Ester, podemos confiar en Dios y actuar con valentía para ayudar a otros.</p>
+    </div>
+    
+    <div class="prayer-box">
+        <h2>🙏 Oración Final</h2>
+        <p><strong>"Dios mío, ayúdame a ser valiente como Ester. Cuando vea que alguien necesita ayuda, dame el valor para actuar. Que siempre confíe en ti cuando tenga miedo. Amén."</strong></p>
+        <div class="bible-quote">
+            <strong>Versículo para recordar:</strong> "Esfuérzate y sé valiente" - Josué 1:9
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Archivos de configuración con tokens/claves
+mcps
+*.env
+.env*
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Carpetas de dependencias
+node_modules/

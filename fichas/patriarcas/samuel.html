@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Samuel - El último juez de Israel</title>
+<style>
+  @page { size: A4; margin: 16mm; }
+  * { box-sizing: border-box; }
+  body { font-family: Arial, Helvetica, sans-serif; margin: 0; }
+  .page { display: grid; grid-template-columns: 1fr 0.9fr; gap: 16px; }
+  h1 { text-align: center; margin: 0 0 6px 0; letter-spacing: 1px; }
+  .meta { display: flex; justify-content: space-between; margin-bottom: 8px; font-weight: bold; }
+  .col { display: grid; gap: 16px; }
+
+  .section { border: 1px solid #999; }
+  .section .head { background: #e0e0e0; padding: 8px 10px; font-weight: 700; text-transform: uppercase; }
+  .section .body { padding: 10px 12px; line-height: 1.4; }
+
+  /* >>> CAMBIO: más ancho para la imagen y tamaño fijo en mm para impresión <<< */
+  .history-grid { display: grid; grid-template-columns: 1fr 60mm; gap: 12px; align-items: start; }
+  .illustration, .illustration img {
+    width: 60mm;               /* ~2.36" de ancho */
+    height: 85mm;              /* ~3.35" de alto (proporción 3:4 grande) */
+  }
+  .illustration {
+    border: 1.5px dashed #666; display: flex; align-items: center; justify-content: center;
+    font-size: 11px; text-align: center; padding: 6px; background: #fff;
+  }
+  .illustration img {
+    object-fit: contain; border: 1.5px solid #666; padding: 2px; background: #fff;
+  }
+
+  .drawing-box { border: 1.5px solid #777; height: 90mm; margin: 8px 0 10px 0; background: #fff; }
+  .line { border-bottom: 1px solid #bbb; height: 18px; margin: 6px 0; }
+</style>
+</head>
+<body>
+  <h1>Samuel - El último juez de Israel</h1>
+  <div class="meta">
+    <span>Nombre: ____________________</span>
+    <span>Fecha: ____________________</span>
+  </div>
+
+  <div class="page">
+    <div class="col">
+      <section class="section">
+        <div class="head">1. ORACIÓN INICIAL</div>
+        <div class="body">Señor Dios, tú llamaste a Samuel desde pequeño para ser tu profeta. Ayúdanos a escuchar tu voz como él lo hizo, y a responder siempre: "Habla, Señor, que tu siervo escucha". Que podamos ser fieles a tu llamado en nuestras vidas. Amén.</div>
+      </section>
+
+      <section class="section">
+        <div class="head">3. ACTIVIDAD CREATIVA</div>
+        <div class="body">
+          <strong>1. Dibujo</strong>
+          <div class="drawing-box"></div>
+          <strong>2. Mini-Cómic o frase</strong>
+          <div class="line"></div><div class="line"></div><div class="line"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="head">5. ORACIÓN FINAL</div>
+        <div class="body">Gracias, Señor, por el ejemplo de Samuel, quien te sirvió con fidelidad toda su vida. Ayúdanos a ser como él: personas que escuchan tu palabra, la obedecen y la comparten con otros. Que seamos instrumentos de tu paz y justicia en el mundo. Amén.</div>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="section">
+        <div class="head">2. LA HISTORIA</div>
+        <div class="body">
+          <div class="history-grid">
+            <div class="text">Samuel fue el último juez de Israel y un gran profeta. Su madre Ana lo consagró a Dios desde antes de nacer. Cuando era niño, vivía en el templo con el sacerdote Elí. Una noche, Dios lo llamó tres veces: "¡Samuel! ¡Samuel!". Al principio pensó que era Elí, pero después entendió que era Dios quien le hablaba. Samuel respondió: "Habla, Señor, que tu siervo escucha". Desde entonces, Dios le revelaba sus mensajes para el pueblo. Samuel ungió a los primeros reyes de Israel: Saúl y David. Fue un hombre justo que siempre obedeció a Dios y guió al pueblo con sabiduría. Su vida nos enseña la importancia de escuchar a Dios y servirle con fidelidad.</div>
+            <img src="/assets/characters/patriarcas/samuel.svg" alt="Samuel" style="width:120px;height:160px;object-fit:contain;border:1.5px solid #666;padding:2px;">
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="head">4. REFLEXIÓN</div>
+        <div class="body">
+          <div><strong>¿Cómo podemos escuchar la voz de Dios en nuestra vida diaria?</strong></div>
+          <div class="line"></div><div class="line"></div>
+          <div style="margin-top:10px;"><strong>¿Qué significa para ti servir a Dios con fidelidad como lo hizo Samuel?</strong></div>
+          <div class="line"></div><div class="line"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Para insertar imagen: -->
+  <!-- <div class="illustration"><img src="/assets/characters/goliat.png" alt="Samuel"></div> -->
+</body>
+</html>

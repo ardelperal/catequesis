@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <!-- Fondo cielo -->
+  <rect width="400" height="533" fill="#87CEEB"/>
+  
+  <!-- Nubes -->
+  <ellipse cx="80" cy="60" rx="25" ry="15" fill="white" opacity="0.8"/>
+  <ellipse cx="100" cy="55" rx="30" ry="18" fill="white" opacity="0.8"/>
+  <ellipse cx="320" cy="80" rx="20" ry="12" fill="white" opacity="0.8"/>
+  
+  <!-- Montañas lejanas -->
+  <polygon points="0,200 100,120 200,160 300,100 400,140 400,200" fill="#8FBC8F"/>
+  
+  <!-- Suelo -->
+  <rect x="0" y="400" width="400" height="133" fill="#DEB887"/>
+  
+  <!-- Murallas de Jericó al fondo -->
+  <rect x="50" y="180" width="300" height="120" fill="#D2B48C" stroke="#8B7355" stroke-width="2"/>
+  <rect x="60" y="190" width="20" height="80" fill="#CD853F"/>
+  <rect x="100" y="190" width="20" height="80" fill="#CD853F"/>
+  <rect x="140" y="190" width="20" height="80" fill="#CD853F"/>
+  <rect x="180" y="190" width="20" height="80" fill="#CD853F"/>
+  <rect x="220" y="190" width="20" height="80" fill="#CD853F"/>
+  <rect x="260" y="190" width="20" height="80" fill="#CD853F"/>
+  <rect x="300" y="190" width="20" height="80" fill="#CD853F"/>
+  
+  <!-- Puerta de la ciudad -->
+  <rect x="185" y="240" width="30" height="60" fill="#8B4513"/>
+  <circle cx="200" cy="260" r="2" fill="#FFD700"/>
+  
+  <!-- Josué (figura principal) -->
+  <!-- Cabeza -->
+  <circle cx="200" cy="320" r="25" fill="#FDBCB4" stroke="#000" stroke-width="2"/>
+  
+  <!-- Cabello -->
+  <path d="M 175 310 Q 200 295 225 310 Q 225 320 200 325 Q 175 320 175 310" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  
+  <!-- Ojos -->
+  <circle cx="190" cy="315" r="3" fill="#000"/>
+  <circle cx="210" cy="315" r="3" fill="#000"/>
+  
+  <!-- Nariz -->
+  <line x1="200" y1="318" x2="200" y2="322" stroke="#000" stroke-width="1"/>
+  
+  <!-- Boca -->
+  <path d="M 195 325 Q 200 328 205 325" stroke="#000" stroke-width="1" fill="none"/>
+  
+  <!-- Barba -->
+  <path d="M 185 330 Q 200 340 215 330 Q 215 335 200 340 Q 185 335 185 330" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  
+  <!-- Túnica -->
+  <rect x="170" y="345" width="60" height="80" fill="#4169E1" stroke="#000" stroke-width="2" rx="5"/>
+  
+  <!-- Cinturón -->
+  <rect x="170" y="375" width="60" height="8" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  
+  <!-- Brazos -->
+  <ellipse cx="150" cy="365" rx="12" ry="30" fill="#4169E1" stroke="#000" stroke-width="2"/>
+  <ellipse cx="250" cy="365" rx="12" ry="30" fill="#4169E1" stroke="#000" stroke-width="2"/>
+  
+  <!-- Manos -->
+  <circle cx="145" cy="385" r="8" fill="#FDBCB4" stroke="#000" stroke-width="2"/>
+  <circle cx="255" cy="385" r="8" fill="#FDBCB4" stroke="#000" stroke-width="2"/>
+  
+  <!-- Trompeta en mano derecha -->
+  <rect x="250" y="380" width="25" height="4" fill="#FFD700" stroke="#000" stroke-width="1" rx="2"/>
+  <rect x="270" y="378" width="8" height="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+  
+  <!-- Espada en cinturón -->
+  <rect x="185" y="370" width="3" height="20" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+  <rect x="183" y="368" width="7" height="4" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  
+  <!-- Piernas -->
+  <rect x="180" y="425" width="15" height="40" fill="#4169E1" stroke="#000" stroke-width="2"/>
+  <rect x="205" y="425" width="15" height="40" fill="#4169E1" stroke="#000" stroke-width="2"/>
+  
+  <!-- Pies/sandalias -->
+  <ellipse cx="187" cy="475" rx="12" ry="6" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  <ellipse cx="212" cy="475" rx="12" ry="6" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  
+  <!-- Soldados israelitas al fondo (pequeños) -->
+  <circle cx="120" cy="350" r="8" fill="#FDBCB4"/>
+  <rect x="115" y="358" width="10" height="20" fill="#228B22"/>
+  <rect x="118" y="365" width="4" height="8" fill="#8B4513"/>
+  
+  <circle cx="280" cy="360" r="8" fill="#FDBCB4"/>
+  <rect x="275" y="368" width="10" height="20" fill="#228B22"/>
+  <rect x="278" y="375" width="4" height="8" fill="#8B4513"/>
+  
+  <!-- Arca del Pacto (pequeña, al fondo) -->
+  <rect x="90" y="380" width="25" height="15" fill="#FFD700" stroke="#8B4513" stroke-width="1"/>
+  <rect x="92" y="378" width="21" height="3" fill="#8B4513"/>
+  
+  <!-- Flores en el suelo -->
+  <circle cx="50" cy="450" r="3" fill="#FF69B4"/>
+  <circle cx="48" cy="448" r="2" fill="#FFB6C1"/>
+  <circle cx="52" cy="448" r="2" fill="#FFB6C1"/>
+  <rect x="49" y="453" width="2" height="8" fill="#228B22"/>
+  
+  <circle cx="350" cy="460" r="3" fill="#FF1493"/>
+  <circle cx="348" cy="458" r="2" fill="#FFB6C1"/>
+  <circle cx="352" cy="458" r="2" fill="#FFB6C1"/>
+  <rect x="349" y="463" width="2" height="8" fill="#228B22"/>
+  
+  <!-- Piedras en el suelo -->
+  <ellipse cx="30" cy="480" rx="8" ry="5" fill="#A0A0A0"/>
+  <ellipse cx="370" cy="490" rx="6" ry="4" fill="#808080"/>
+  <ellipse cx="150" cy="495" rx="5" ry="3" fill="#A0A0A0"/>
+</svg>

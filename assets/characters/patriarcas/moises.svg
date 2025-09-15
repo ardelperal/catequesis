@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" style="background: transparent;">
+  <!-- Fondo con montaña del Sinaí -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo -->
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Montaña del Sinaí -->
+  <polygon points="0,300 150,100 250,100 400,300" fill="url(#mountainGradient)" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Nubes -->
+  <ellipse cx="80" cy="80" rx="25" ry="15" fill="white" opacity="0.8"/>
+  <ellipse cx="100" cy="75" rx="30" ry="18" fill="white" opacity="0.8"/>
+  <ellipse cx="320" cy="90" rx="20" ry="12" fill="white" opacity="0.8"/>
+  
+  <!-- Suelo rocoso -->
+  <rect x="0" y="300" width="400" height="233" fill="#D2B48C"/>
+  <ellipse cx="50" cy="320" rx="15" ry="8" fill="#A0522D"/>
+  <ellipse cx="350" cy="330" rx="12" ry="6" fill="#A0522D"/>
+  
+  <!-- Moisés -->
+  <!-- Cabeza -->
+  <circle cx="200" cy="180" r="35" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Cabello y barba -->
+  <path d="M170 160 Q180 150 200 150 Q220 150 230 160 Q235 170 230 180 Q225 185 220 180 Q210 175 200 175 Q190 175 180 180 Q175 185 170 180 Q165 170 170 160" fill="#8B4513" stroke="#333" stroke-width="1"/>
+  <path d="M175 200 Q185 220 200 225 Q215 220 225 200 Q230 210 225 220 Q215 230 200 235 Q185 230 175 220 Q170 210 175 200" fill="#8B4513" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ojos -->
+  <circle cx="190" cy="175" r="3" fill="#333"/>
+  <circle cx="210" cy="175" r="3" fill="#333"/>
+  
+  <!-- Nariz -->
+  <path d="M200 180 L195 185 L200 190 L205 185 Z" fill="#F4A460" stroke="#333" stroke-width="1"/>
+  
+  <!-- Boca -->
+  <path d="M195 195 Q200 200 205 195" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Túnica -->
+  <rect x="160" y="210" width="80" height="120" rx="10" fill="#4682B4" stroke="#333" stroke-width="2"/>
+  <rect x="165" y="215" width="70" height="110" rx="8" fill="#5F9EA0" opacity="0.7"/>
+  
+  <!-- Manto -->
+  <path d="M140 220 Q160 210 180 220 L180 320 Q160 330 140 320 Z" fill="#8B0000" stroke="#333" stroke-width="2"/>
+  <path d="M220 220 Q240 210 260 220 L260 320 Q240 330 220 320 Z" fill="#8B0000" stroke="#333" stroke-width="2"/>
+  
+  <!-- Brazos -->
+  <ellipse cx="150" cy="250" rx="15" ry="40" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  <ellipse cx="250" cy="250" rx="15" ry="40" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Manos sosteniendo las tablas -->
+  <circle cx="140" cy="280" r="12" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  <circle cx="260" cy="280" r="12" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Tablas de la Ley -->
+  <rect x="120" y="260" width="40" height="50" rx="5" fill="#F5F5DC" stroke="#333" stroke-width="3"/>
+  <rect x="240" y="260" width="40" height="50" rx="5" fill="#F5F5DC" stroke="#333" stroke-width="3"/>
+  
+  <!-- Texto en las tablas (representación simbólica) -->
+  <line x1="125" y1="270" x2="155" y2="270" stroke="#333" stroke-width="1"/>
+  <line x1="125" y1="275" x2="155" y2="275" stroke="#333" stroke-width="1"/>
+  <line x1="125" y1="280" x2="155" y2="280" stroke="#333" stroke-width="1"/>
+  <line x1="125" y1="285" x2="155" y2="285" stroke="#333" stroke-width="1"/>
+  <line x1="125" y1="290" x2="155" y2="290" stroke="#333" stroke-width="1"/>
+  
+  <line x1="245" y1="270" x2="275" y2="270" stroke="#333" stroke-width="1"/>
+  <line x1="245" y1="275" x2="275" y2="275" stroke="#333" stroke-width="1"/>
+  <line x1="245" y1="280" x2="275" y2="280" stroke="#333" stroke-width="1"/>
+  <line x1="245" y1="285" x2="275" y2="285" stroke="#333" stroke-width="1"/>
+  <line x1="245" y1="290" x2="275" y2="290" stroke="#333" stroke-width="1"/>
+  
+  <!-- Piernas -->
+  <ellipse cx="180" cy="380" rx="12" ry="50" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  <ellipse cx="220" cy="380" rx="12" ry="50" fill="#FDBCB4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Sandalias -->
+  <ellipse cx="180" cy="420" rx="18" ry="8" fill="#8B4513" stroke="#333" stroke-width="2"/>
+  <ellipse cx="220" cy="420" rx="18" ry="8" fill="#8B4513" stroke="#333" stroke-width="2"/>
+  
+  <!-- Bastón de Moisés (a un lado) -->
+  <line x1="300" y1="200" x2="300" y2="350" stroke="#8B4513" stroke-width="6"/>
+  <circle cx="300" cy="195" r="8" fill="#DAA520" stroke="#333" stroke-width="2"/>
+  
+  <!-- Resplandor divino alrededor de Moisés -->
+  <circle cx="200" cy="180" r="50" fill="none" stroke="#FFD700" stroke-width="3" opacity="0.6"/>
+  <circle cx="200" cy="180" r="60" fill="none" stroke="#FFA500" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Rayos de luz desde arriba -->
+  <line x1="200" y1="50" x2="190" y2="120" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+  <line x1="200" y1="50" x2="200" y2="120" stroke="#FFD700" stroke-width="4" opacity="0.8"/>
+  <line x1="200" y1="50" x2="210" y2="120" stroke="#FFD700" stroke-width="3" opacity="0.7"/>
+</svg>

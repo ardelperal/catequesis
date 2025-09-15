@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" width="400" height="533">
+  <!-- Fondo con colinas y cielo -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo -->
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Colinas de fondo -->
+  <ellipse cx="100" cy="280" rx="120" ry="40" fill="#90EE90"/>
+  <ellipse cx="300" cy="290" rx="100" ry="35" fill="#98FB98"/>
+  
+  <!-- Suelo -->
+  <rect x="0" y="300" width="400" height="233" fill="#DEB887"/>
+  
+  <!-- Algunas piedras en el suelo -->
+  <ellipse cx="80" cy="320" rx="8" ry="5" fill="#A0A0A0"/>
+  <ellipse cx="320" cy="315" rx="6" ry="4" fill="#909090"/>
+  <ellipse cx="150" cy="325" rx="5" ry="3" fill="#B0B0B0"/>
+  
+  <!-- Ovejas en el fondo -->
+  <g transform="translate(50,280)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#FFFAF0"/>
+    <circle cx="-8" cy="-3" r="6" fill="#FFFAF0"/>
+    <circle cx="-10" cy="-5" r="2" fill="#FFB6C1"/>
+    <rect x="-2" y="2" width="2" height="8" fill="#8B4513"/>
+    <rect x="2" y="2" width="2" height="8" fill="#8B4513"/>
+  </g>
+  
+  <g transform="translate(320,285)">
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#FFFAF0"/>
+    <circle cx="-6" cy="-2" r="5" fill="#FFFAF0"/>
+    <circle cx="-8" cy="-4" r="1.5" fill="#FFB6C1"/>
+    <rect x="-1" y="1" width="1.5" height="6" fill="#8B4513"/>
+    <rect x="1.5" y="1" width="1.5" height="6" fill="#8B4513"/>
+  </g>
+  
+  <!-- David - Cuerpo principal -->
+  <g transform="translate(200,350)">
+    <!-- Túnica -->
+    <ellipse cx="0" cy="40" rx="35" ry="60" fill="#4169E1"/>
+    
+    <!-- Manto/capa -->
+    <path d="M -30 20 Q -40 30 -35 50 L -25 80 Q -20 85 -15 80 L -10 50 Q -5 30 -15 20 Z" fill="#8B4513"/>
+    <path d="M 30 20 Q 40 30 35 50 L 25 80 Q 20 85 15 80 L 10 50 Q 5 30 15 20 Z" fill="#8B4513"/>
+    
+    <!-- Brazos -->
+    <ellipse cx="-25" cy="25" rx="8" ry="20" fill="#DEB887"/>
+    <ellipse cx="25" cy="25" rx="8" ry="20" fill="#DEB887"/>
+    
+    <!-- Manos -->
+    <circle cx="-25" cy="45" r="6" fill="#DEB887"/>
+    <circle cx="25" cy="45" r="6" fill="#DEB887"/>
+    
+    <!-- Honda en la mano derecha -->
+    <path d="M 25 45 Q 35 40 40 35" stroke="#8B4513" stroke-width="2" fill="none"/>
+    <path d="M 25 45 Q 35 50 40 55" stroke="#8B4513" stroke-width="2" fill="none"/>
+    <ellipse cx="40" cy="45" rx="3" ry="2" fill="#654321"/>
+    
+    <!-- Bastón de pastor en la mano izquierda -->
+    <rect x="-28" y="-20" width="3" height="80" fill="#8B4513"/>
+    <path d="M -28 -20 Q -35 -25 -40 -20 Q -35 -15 -28 -17" fill="none" stroke="#8B4513" stroke-width="3"/>
+    
+    <!-- Piernas -->
+    <ellipse cx="-12" cy="85" rx="8" ry="25" fill="#DEB887"/>
+    <ellipse cx="12" cy="85" rx="8" ry="25" fill="#DEB887"/>
+    
+    <!-- Sandalias -->
+    <ellipse cx="-12" cy="110" rx="10" ry="5" fill="#8B4513"/>
+    <ellipse cx="12" cy="110" rx="10" ry="5" fill="#8B4513"/>
+    
+    <!-- Cabeza -->
+    <circle cx="0" cy="-10" r="18" fill="#DEB887"/>
+    
+    <!-- Cabello rizado -->
+    <circle cx="-12" cy="-18" r="8" fill="#8B4513"/>
+    <circle cx="0" cy="-22" r="9" fill="#8B4513"/>
+    <circle cx="12" cy="-18" r="8" fill="#8B4513"/>
+    <circle cx="-8" cy="-25" r="6" fill="#8B4513"/>
+    <circle cx="8" cy="-25" r="6" fill="#8B4513"/>
+    
+    <!-- Ojos -->
+    <circle cx="-5" cy="-12" r="2" fill="#000"/>
+    <circle cx="5" cy="-12" r="2" fill="#000"/>
+    <circle cx="-5" cy="-12" r="1" fill="#FFF"/>
+    <circle cx="5" cy="-12" r="1" fill="#FFF"/>
+    
+    <!-- Nariz -->
+    <ellipse cx="0" cy="-8" rx="1" ry="2" fill="#CD853F"/>
+    
+    <!-- Boca sonriente -->
+    <path d="M -3 -4 Q 0 -2 3 -4" stroke="#8B4513" stroke-width="1.5" fill="none"/>
+    
+    <!-- Cinturón -->
+    <rect x="-30" y="15" width="60" height="6" fill="#654321"/>
+    <rect x="-3" y="15" width="6" height="6" fill="#FFD700"/>
+  </g>
+  
+  <!-- Arpa pequeña en el suelo -->
+  <g transform="translate(120,450)">
+    <path d="M 0 0 L 0 30 L 20 25 L 20 -5 Z" fill="#8B4513"/>
+    <line x1="2" y1="5" x2="18" y2="2" stroke="#FFD700" stroke-width="0.5"/>
+    <line x1="2" y1="10" x2="18" y2="7" stroke="#FFD700" stroke-width="0.5"/>
+    <line x1="2" y1="15" x2="18" y2="12" stroke="#FFD700" stroke-width="0.5"/>
+    <line x1="2" y1="20" x2="18" y2="17" stroke="#FFD700" stroke-width="0.5"/>
+    <line x1="2" y1="25" x2="18" y2="22" stroke="#FFD700" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Algunas flores en el campo -->
+  <g transform="translate(300,480)">
+    <circle cx="0" cy="0" r="3" fill="#FF69B4"/>
+    <circle cx="-2" cy="-2" r="2" fill="#FF1493"/>
+    <circle cx="2" cy="-2" r="2" fill="#FF1493"/>
+    <circle cx="-2" cy="2" r="2" fill="#FF1493"/>
+    <circle cx="2" cy="2" r="2" fill="#FF1493"/>
+    <rect x="-0.5" y="3" width="1" height="8" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(100,470)">
+    <circle cx="0" cy="0" r="2.5" fill="#FFD700"/>
+    <circle cx="-1.5" cy="-1.5" r="1.5" fill="#FFA500"/>
+    <circle cx="1.5" cy="-1.5" r="1.5" fill="#FFA500"/>
+    <circle cx="-1.5" cy="1.5" r="1.5" fill="#FFA500"/>
+    <circle cx="1.5" cy="1.5" r="1.5" fill="#FFA500"/>
+    <rect x="-0.5" y="2.5" width="1" height="6" fill="#228B22"/>
+  </g>
+  
+  <!-- Nubes en el cielo -->
+  <g transform="translate(80,80)">
+    <circle cx="0" cy="0" r="15" fill="#FFF"/>
+    <circle cx="12" cy="0" r="12" fill="#FFF"/>
+    <circle cx="-10" cy="0" r="10" fill="#FFF"/>
+    <circle cx="6" cy="-8" r="8" fill="#FFF"/>
+  </g>
+  
+  <g transform="translate(320,60)">
+    <circle cx="0" cy="0" r="12" fill="#FFF"/>
+    <circle cx="10" cy="0" r="10" fill="#FFF"/>
+    <circle cx="-8" cy="0" r="8" fill="#FFF"/>
+    <circle cx="5" cy="-6" r="6" fill="#FFF"/>
+  </g>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" style="background: white;">
+  <!-- Fondo con cielo suave -->
+  <rect width="400" height="500" fill="#f0f8ff"/>
+  
+  <!-- Montañas al fondo -->
+  <path d="M0 350 L100 280 L200 320 L300 260 L400 300 L400 500 L0 500 Z" fill="#d4c5b9"/>
+  
+  <!-- Suelo -->
+  <rect x="0" y="400" width="400" height="100" fill="#e6d7c3"/>
+  
+  <!-- Isaac - Cuerpo -->
+  <ellipse cx="200" cy="320" rx="35" ry="60" fill="#8b4513"/>
+  
+  <!-- Isaac - Túnica -->
+  <rect x="170" y="280" width="60" height="80" rx="10" fill="#4682b4"/>
+  <rect x="175" y="285" width="50" height="70" rx="8" fill="#5a9bd4"/>
+  
+  <!-- Isaac - Cinturón -->
+  <rect x="170" y="315" width="60" height="8" fill="#8b4513"/>
+  
+  <!-- Isaac - Brazos -->
+  <ellipse cx="155" cy="300" rx="12" ry="25" fill="#deb887"/>
+  <ellipse cx="245" cy="300" rx="12" ry="25" fill="#deb887"/>
+  
+  <!-- Isaac - Manos -->
+  <circle cx="150" cy="320" r="8" fill="#deb887"/>
+  <circle cx="250" cy="320" r="8" fill="#deb887"/>
+  
+  <!-- Isaac - Piernas -->
+  <rect x="185" y="360" width="12" height="40" fill="#deb887"/>
+  <rect x="203" y="360" width="12" height="40" fill="#deb887"/>
+  
+  <!-- Isaac - Pies -->
+  <ellipse cx="191" cy="405" rx="10" ry="6" fill="#8b4513"/>
+  <ellipse cx="209" cy="405" rx="10" ry="6" fill="#8b4513"/>
+  
+  <!-- Isaac - Cabeza -->
+  <circle cx="200" cy="250" r="25" fill="#deb887"/>
+  
+  <!-- Isaac - Cabello -->
+  <path d="M175 235 Q200 220 225 235 Q220 245 200 250 Q180 245 175 235" fill="#8b4513"/>
+  
+  <!-- Isaac - Ojos -->
+  <circle cx="192" cy="245" r="3" fill="#333"/>
+  <circle cx="208" cy="245" r="3" fill="#333"/>
+  <circle cx="193" cy="244" r="1" fill="white"/>
+  <circle cx="209" cy="244" r="1" fill="white"/>
+  
+  <!-- Isaac - Nariz -->
+  <ellipse cx="200" cy="250" rx="2" ry="3" fill="#cd853f"/>
+  
+  <!-- Isaac - Boca sonriente -->
+  <path d="M195 255 Q200 260 205 255" stroke="#8b4513" stroke-width="2" fill="none"/>
+  
+  <!-- Rebaño de ovejas al fondo -->
+  <g transform="translate(80,350)">
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="white"/>
+    <circle cx="-8" cy="-5" r="6" fill="white"/>
+    <circle cx="-10" cy="-7" r="2" fill="#333"/>
+    <rect x="-3" y="5" width="2" height="8" fill="#333"/>
+    <rect x="1" y="5" width="2" height="8" fill="#333"/>
+  </g>
+  
+  <g transform="translate(120,360)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="white"/>
+    <circle cx="-6" cy="-4" r="5" fill="white"/>
+    <circle cx="-8" cy="-6" r="1.5" fill="#333"/>
+    <rect x="-2" y="4" width="1.5" height="6" fill="#333"/>
+    <rect x="1" y="4" width="1.5" height="6" fill="#333"/>
+  </g>
+  
+  <g transform="translate(300,365)">
+    <ellipse cx="0" cy="0" rx="13" ry="9" fill="white"/>
+    <circle cx="-7" cy="-4" r="5" fill="white"/>
+    <circle cx="-9" cy="-6" r="1.5" fill="#333"/>
+    <rect x="-2" y="4" width="1.5" height="7" fill="#333"/>
+    <rect x="1" y="4" width="1.5" height="7" fill="#333"/>
+  </g>
+  
+  <!-- Bastón de pastor -->
+  <line x1="250" y1="320" x2="250" y2="380" stroke="#8b4513" stroke-width="4"/>
+  <path d="M250 320 Q260 315 265 325 Q260 335 250 330" stroke="#8b4513" stroke-width="3" fill="none"/>
+  
+  <!-- Pozo de agua -->
+  <ellipse cx="320" cy="390" rx="25" ry="15" fill="#4682b4"/>
+  <ellipse cx="320" cy="385" rx="25" ry="8" fill="#87ceeb"/>
+  <rect x="295" y="375" width="50" height="15" fill="#8b4513"/>
+  
+  <!-- Árbol -->
+  <rect x="50" y="320" width="8" height="40" fill="#8b4513"/>
+  <circle cx="54" cy="310" r="20" fill="#228b22"/>
+  <circle cx="45" cy="305" r="15" fill="#32cd32"/>
+  <circle cx="63" cy="305" r="15" fill="#32cd32"/>
+  
+  <!-- Nubes -->
+  <g transform="translate(100,80)">
+    <circle cx="0" cy="0" r="15" fill="white"/>
+    <circle cx="20" cy="0" r="18" fill="white"/>
+    <circle cx="40" cy="0" r="15" fill="white"/>
+    <circle cx="10" cy="-10" r="12" fill="white"/>
+    <circle cx="30" cy="-10" r="12" fill="white"/>
+  </g>
+  
+  <g transform="translate(280,60)">
+    <circle cx="0" cy="0" r="12" fill="white"/>
+    <circle cx="15" cy="0" r="15" fill="white"/>
+    <circle cx="30" cy="0" r="12" fill="white"/>
+    <circle cx="8" cy="-8" r="10" fill="white"/>
+    <circle cx="22" cy="-8" r="10" fill="white"/>
+  </g>
+  
+  <!-- Sol -->
+  <circle cx="350" cy="80" r="20" fill="#ffd700"/>
+  <g transform="translate(350,80)">
+    <line x1="-35" y1="0" x2="-25" y2="0" stroke="#ffd700" stroke-width="3"/>
+    <line x1="25" y1="0" x2="35" y2="0" stroke="#ffd700" stroke-width="3"/>
+    <line x1="0" y1="-35" x2="0" y2="-25" stroke="#ffd700" stroke-width="3"/>
+    <line x1="0" y1="25" x2="0" y2="35" stroke="#ffd700" stroke-width="3"/>
+    <line x1="-25" y1="-25" x2="-18" y2="-18" stroke="#ffd700" stroke-width="3"/>
+    <line x1="18" y1="18" x2="25" y2="25" stroke="#ffd700" stroke-width="3"/>
+    <line x1="25" y1="-25" x2="18" y2="-18" stroke="#ffd700" stroke-width="3"/>
+    <line x1="-18" y1="18" x2="-25" y2="25" stroke="#ffd700" stroke-width="3"/>
+  </g>
+  
+  <!-- Contornos -->
+  <g stroke="#333" stroke-width="1.5" fill="none">
+    <!-- Contorno de Isaac -->
+    <circle cx="200" cy="250" r="25"/>
+    <rect x="170" y="280" width="60" height="80" rx="10"/>
+    <ellipse cx="155" cy="300" rx="12" ry="25"/>
+    <ellipse cx="245" cy="300" rx="12" ry="25"/>
+    <rect x="185" y="360" width="12" height="40"/>
+    <rect x="203" y="360" width="12" height="40"/>
+  </g>
+</svg>

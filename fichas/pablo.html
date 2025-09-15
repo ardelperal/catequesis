@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Pablo Apóstol</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+        }
+        
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #8B4513;
+            padding-bottom: 15px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #8B4513;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .student-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: white;
+            padding: 12px 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .section-content {
+            padding: 20px;
+            background: #fafafa;
+        }
+        
+        .prayer-box {
+            background: #e8f4f8;
+            border-left: 4px solid #4a90e2;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .bible-quote {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-style: italic;
+            border-radius: 5px;
+        }
+        
+        .story-content {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .story-text {
+            flex: 1;
+        }
+        
+        .story-image {
+            width: 120px;
+            height: 160px;
+            border: 2px solid #8B4513;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f9f9f9;
+            flex-shrink: 0;
+        }
+        
+        .story-image img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+        }
+        
+        .activity-box {
+            background: #f0f8e8;
+            border: 2px dashed #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            min-height: 120px;
+        }
+        
+        .reflection-box {
+            background: #fef7e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .question {
+            margin: 15px 0;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .answer-line {
+            border-bottom: 1px solid #ccc;
+            height: 25px;
+            margin: 8px 0;
+        }
+        
+        @media print {
+            .container {
+                max-width: none;
+                padding: 0;
+            }
+            
+            .section {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗡️ San Pablo Apóstol ✉️</h1>
+            <div class="subtitle">El gran misionero de los gentiles</div>
+        </div>
+        
+        <div class="student-info">
+            <span>Nombre: _________________________</span>
+            <span>Fecha: _________________________</span>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">🙏 ORACIÓN INICIAL</div>
+            <div class="section-content">
+                <div class="prayer-box">
+                    <p><strong>Oración:</strong> "Padre nuestro, que estás en el cielo, santificado sea tu nombre. Te damos gracias por San Pablo, quien nos enseña que tu amor puede cambiar cualquier corazón. Ayúdanos a ser valientes misioneros como él. Amén."</p>
+                </div>
+                <div class="bible-quote">
+                    <strong>CITA BÍBLICA:</strong> "Vivo, pero ya no soy yo el que vive, sino que Cristo vive en mí" (Gálatas 2:20)
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">📖 LA HISTORIA DE SAN PABLO</div>
+            <div class="section-content">
+                <div class="story-content">
+                    <div class="story-text">
+                        <p><strong>Pablo</strong> se llamaba <strong>Saulo</strong> y perseguía a los cristianos. Un día, cuando iba camino a Damasco, <strong>Jesús se le apareció</strong> en una luz brillante y le preguntó: "Saulo, ¿por qué me persigues?"</p>
+                        
+                        <p>Desde ese momento, Saulo se convirtió en <strong>Pablo</strong>, el gran apóstol de Jesús. Hizo tres grandes viajes misioneros llevando el Evangelio a muchas ciudades y escribió 13 cartas que están en la Biblia.</p>
+                        
+                        <p>Pablo es llamado <strong>"el Apóstol de los gentiles"</strong> porque llevó el mensaje de Jesús a personas que no eran judías. Fue valiente, inteligente y perseverante, siguiendo a Cristo hasta el final de su vida.</p>
+                        
+                        <p><strong>Mensaje principal:</strong> San Pablo nos enseña que Dios puede cambiar cualquier corazón y que debemos ser valientes para hablar de Jesús a otros. Su conversión nos muestra el poder transformador del amor de Dios.</p>
+                    </div>
+                    <div class="story-image">
+                        <img src="../assets/characters/pablo.png" alt="San Pablo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">🎨 ACTIVIDAD CREATIVA</div>
+            <div class="section-content">
+                <p><strong>"Carta de Pablo"</strong></p>
+                <p>Escribe una carta corta como las de San Pablo. Puedes empezar así: "Querido amigo, te escribo para contarte sobre Jesús..." Decora tu carta con dibujos de corazones y cruces.</p>
+                <div class="activity-box">
+                    <!-- Espacio para escribir la carta -->
+                </div>
+                <p><strong>Escribe una frase:</strong> ¿Cómo puedes ser un misionero de Jesús en tu vida diaria?</p>
+                <div class="answer-line"></div>
+                <div class="answer-line"></div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">💭 REFLEXIÓN</div>
+            <div class="section-content">
+                <div class="reflection-box">
+                    <div class="question">¿Cómo cambió la vida de Pablo después de encontrarse con Jesús?</div>
+                    <div class="answer-line"></div>
+                    <div class="answer-line"></div>
+                    
+                    <div class="question">¿Qué nos enseña Pablo sobre ser valientes en la fe?</div>
+                    <div class="answer-line"></div>
+                    <div class="answer-line"></div>
+                    
+                    <div class="question">¿Cómo puedes tú hablar de Jesús a tus amigos?</div>
+                    <div class="answer-line"></div>
+                    <div class="answer-line"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">🙏 ORACIÓN FINAL</div>
+            <div class="section-content">
+                <div class="prayer-box">
+                    <p><strong>Oración de compromiso:</strong> "San Pablo, ayúdanos a ser valientes como tú para hablar de Jesús. Enséñanos a escribir cartas de amor y amistad. Que como tú, podamos cambiar nuestro corazón y seguir siempre a Cristo. Amén."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

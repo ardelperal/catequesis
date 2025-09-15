@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+  <!-- Fondo -->
+  <rect width="120" height="160" fill="#f8f9fa"/>
+  
+  <!-- Túnica -->
+  <ellipse cx="60" cy="130" rx="35" ry="25" fill="#8B4513"/>
+  <rect x="25" y="80" width="70" height="50" fill="#8B4513" rx="5"/>
+  
+  <!-- Manto -->
+  <path d="M20 90 Q60 85 100 90 L95 140 Q60 135 25 140 Z" fill="#4169E1"/>
+  
+  <!-- Brazos -->
+  <ellipse cx="35" cy="95" rx="8" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="85" cy="95" rx="8" ry="20" fill="#FDBCB4"/>
+  
+  <!-- Manos -->
+  <circle cx="35" cy="110" r="6" fill="#FDBCB4"/>
+  <circle cx="85" cy="110" r="6" fill="#FDBCB4"/>
+  
+  <!-- Pergamino en mano derecha -->
+  <rect x="78" y="105" width="12" height="8" fill="#F5F5DC" rx="1"/>
+  <line x1="80" y1="107" x2="88" y2="107" stroke="#8B4513" stroke-width="0.5"/>
+  <line x1="80" y1="109" x2="88" y2="109" stroke="#8B4513" stroke-width="0.5"/>
+  <line x1="80" y1="111" x2="88" y2="111" stroke="#8B4513" stroke-width="0.5"/>
+  
+  <!-- Cabeza -->
+  <circle cx="60" cy="50" r="20" fill="#FDBCB4"/>
+  
+  <!-- Cabello y barba -->
+  <path d="M45 35 Q60 30 75 35 Q75 45 60 50 Q45 45 45 35" fill="#8B4513"/>
+  <path d="M45 55 Q60 65 75 55 Q70 70 60 72 Q50 70 45 55" fill="#8B4513"/>
+  
+  <!-- Calvicie parcial -->
+  <ellipse cx="60" cy="35" rx="12" ry="8" fill="#FDBCB4"/>
+  
+  <!-- Ojos -->
+  <circle cx="55" cy="47" r="2" fill="#333"/>
+  <circle cx="65" cy="47" r="2" fill="#333"/>
+  
+  <!-- Nariz -->
+  <ellipse cx="60" cy="52" rx="1.5" ry="3" fill="#F4A460"/>
+  
+  <!-- Boca -->
+  <path d="M57 57 Q60 59 63 57" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Aureola -->
+  <circle cx="60" cy="35" r="18" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Espada (símbolo de Pablo) -->
+  <line x1="30" y1="105" x2="30" y2="120" stroke="#C0C0C0" stroke-width="2"/>
+  <rect x="28" y="100" width="4" height="8" fill="#8B4513"/>
+  <circle cx="30" cy="98" r="2" fill="#FFD700"/>
+  
+  <!-- Texto "SAN PABLO" -->
+  <text x="60" y="150" text-anchor="middle" font-family="serif" font-size="8" fill="#333" font-weight="bold">SAN PABLO</text>
+</svg>

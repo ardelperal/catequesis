@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <!-- Fondo con cielo y lluvia -->
+  <rect width="400" height="600" fill="#87ceeb"/>
+  
+  <!-- Nubes de lluvia -->
+  <ellipse cx="80" cy="80" rx="40" ry="25" fill="#696969"/>
+  <ellipse cx="120" cy="70" rx="35" ry="20" fill="#696969"/>
+  <ellipse cx="280" cy="90" rx="45" ry="30" fill="#696969"/>
+  <ellipse cx="320" cy="80" rx="30" ry="18" fill="#696969"/>
+  
+  <!-- Gotas de lluvia -->
+  <g stroke="#4682b4" stroke-width="2" fill="none">
+    <line x1="70" y1="110" x2="65" y2="130"/>
+    <line x1="90" y1="105" x2="85" y2="125"/>
+    <line x1="110" y1="100" x2="105" y2="120"/>
+    <line x1="130" y1="95" x2="125" y2="115"/>
+    <line x1="270" y1="120" x2="265" y2="140"/>
+    <line x1="290" y1="115" x2="285" y2="135"/>
+    <line x1="310" y1="110" x2="305" y2="130"/>
+    <line x1="330" y1="105" x2="325" y2="125"/>
+  </g>
+  
+  <!-- El Arca -->
+  <g id="ark">
+    <!-- Casco del barco -->
+    <ellipse cx="200" cy="400" rx="120" ry="40" fill="#8b4513"/>
+    <!-- Cuerpo principal -->
+    <rect x="80" y="300" width="240" height="100" fill="#daa520" rx="10"/>
+    <!-- Techo -->
+    <path d="M 70 300 L 200 250 L 330 300 Z" fill="#8b4513"/>
+    <!-- Ventana -->
+    <rect x="180" y="270" width="40" height="20" fill="#87ceeb" rx="5"/>
+    <!-- Puerta -->
+    <rect x="150" y="320" width="30" height="50" fill="#654321" rx="3"/>
+    <circle cx="175" cy="345" r="2" fill="#333"/>
+  </g>
+  
+  <!-- Noé -->
+  <g id="noah">
+    <!-- Cuerpo -->
+    <ellipse cx="200" cy="280" rx="15" ry="30" fill="#8b4513"/>
+    <!-- Cabeza -->
+    <circle cx="200" cy="240" r="18" fill="#fdbcb4"/>
+    <!-- Barba blanca -->
+    <path d="M 185 250 Q 200 265 215 250 Q 215 260 200 265 Q 185 260 185 250" fill="#f5f5f5"/>
+    <!-- Cabello -->
+    <path d="M 185 230 Q 200 220 215 230 Q 215 240 200 245 Q 185 240 185 230" fill="#f5f5f5"/>
+    <!-- Ojos -->
+    <circle cx="195" cy="235" r="2" fill="#333"/>
+    <circle cx="205" cy="235" r="2" fill="#333"/>
+    <!-- Brazos -->
+    <ellipse cx="180" cy="270" rx="8" ry="20" fill="#fdbcb4"/>
+    <ellipse cx="220" cy="270" rx="8" ry="20" fill="#fdbcb4"/>
+    <!-- Túnica -->
+    <ellipse cx="200" cy="290" rx="18" ry="25" fill="#4682b4"/>
+    <!-- Bastón -->
+    <line x1="175" y1="260" x2="175" y2="310" stroke="#8b4513" stroke-width="3"/>
+  </g>
+  
+  <!-- Animales en el arca -->
+  <g id="animals">
+    <!-- Jirafa (cabeza asomando) -->
+    <ellipse cx="250" cy="270" rx="8" ry="12" fill="#daa520"/>
+    <circle cx="250" cy="255" r="6" fill="#daa520"/>
+    <circle cx="248" cy="252" r="1" fill="#333"/>
+    <circle cx="252" cy="252" r="1" fill="#333"/>
+    <!-- Manchas de jirafa -->
+    <circle cx="245" cy="265" r="2" fill="#8b4513"/>
+    <circle cx="255" cy="268" r="2" fill="#8b4513"/>
+    
+    <!-- Elefante (trompa asomando) -->
+    <ellipse cx="150" cy="275" rx="10" ry="8" fill="#696969"/>
+    <path d="M 140 275 Q 130 280 135 285" stroke="#696969" stroke-width="4" fill="none"/>
+    <circle cx="145" cy="272" r="1" fill="#333"/>
+    
+    <!-- León (melena asomando) -->
+    <circle cx="280" cy="275" r="8" fill="#daa520"/>
+    <circle cx="280" cy="275" r="12" fill="#cd853f" opacity="0.7"/>
+    <circle cx="277" cy="272" r="1" fill="#333"/>
+    <circle cx="283" cy="272" r="1" fill="#333"/>
+  </g>
+  
+  <!-- Paloma con rama de olivo -->
+  <g id="dove">
+    <ellipse cx="120" cy="180" rx="8" ry="5" fill="#f5f5f5"/>
+    <circle cx="115" cy="178" r="4" fill="#f5f5f5"/>
+    <circle cx="113" cy="176" r="1" fill="#333"/>
+    <!-- Alas -->
+    <ellipse cx="125" cy="180" rx="6" ry="3" fill="#e6e6e6"/>
+    <ellipse cx="125" cy="182" rx="6" ry="3" fill="#e6e6e6"/>
+    <!-- Rama de olivo en el pico -->
+    <line x1="110" y1="178" x2="100" y2="175" stroke="#228b22" stroke-width="2"/>
+    <ellipse cx="98" cy="174" rx="3" ry="2" fill="#228b22"/>
+  </g>
+  
+  <!-- Arcoíris -->
+  <g fill="none" stroke-width="3">
+    <path d="M 50 200 Q 200 150 350 200" stroke="#ff0000"/>
+    <path d="M 52 203 Q 200 153 348 203" stroke="#ff8c00"/>
+    <path d="M 54 206 Q 200 156 346 206" stroke="#ffd700"/>
+    <path d="M 56 209 Q 200 159 344 209" stroke="#32cd32"/>
+    <path d="M 58 212 Q 200 162 342 212" stroke="#00bfff"/>
+    <path d="M 60 215 Q 200 165 340 215" stroke="#4169e1"/>
+    <path d="M 62 218 Q 200 168 338 218" stroke="#8a2be2"/>
+  </g>
+  
+  <!-- Agua/olas -->
+  <g fill="#4682b4" opacity="0.6">
+    <ellipse cx="100" cy="450" rx="30" ry="8"/>
+    <ellipse cx="200" cy="460" rx="40" ry="10"/>
+    <ellipse cx="300" cy="455" rx="35" ry="9"/>
+  </g>
+</svg>

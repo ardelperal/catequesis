@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+  <!-- Fondo -->
+  <rect width="120" height="160" fill="#f8f9fa"/>
+  
+  <!-- Túnica -->
+  <ellipse cx="60" cy="130" rx="35" ry="25" fill="#8B0000"/>
+  <rect x="25" y="80" width="70" height="50" fill="#8B0000" rx="5"/>
+  
+  <!-- Manto -->
+  <path d="M20 85 Q60 75 100 85 L95 140 Q60 135 25 140 Z" fill="#4169E1"/>
+  
+  <!-- Brazos -->
+  <ellipse cx="35" cy="95" rx="8" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="85" cy="95" rx="8" ry="20" fill="#FDBCB4"/>
+  
+  <!-- Manos -->
+  <circle cx="35" cy="110" r="6" fill="#FDBCB4"/>
+  <circle cx="85" cy="110" r="6" fill="#FDBCB4"/>
+  
+  <!-- Frasco de perfume en mano izquierda -->
+  <ellipse cx="35" cy="108" rx="4" ry="6" fill="#DEB887"/>
+  <rect x="33" y="102" width="4" height="3" fill="#8B4513"/>
+  <circle cx="35" cy="101" r="1" fill="#FFD700"/>
+  
+  <!-- Cruz en mano derecha -->
+  <rect x="83" y="105" width="4" height="10" fill="#8B4513"/>
+  <rect x="81" y="107" width="8" height="3" fill="#8B4513"/>
+  
+  <!-- Cabeza -->
+  <circle cx="60" cy="50" r="20" fill="#FDBCB4"/>
+  
+  <!-- Cabello largo -->
+  <path d="M45 35 Q60 25 75 35 Q80 45 75 60 Q70 75 65 85 Q60 90 55 85 Q50 75 45 60 Q40 45 45 35" fill="#8B4513"/>
+  
+  <!-- Mechones laterales -->
+  <path d="M40 50 Q35 60 40 70 Q45 65 40 50" fill="#8B4513"/>
+  <path d="M80 50 Q85 60 80 70 Q75 65 80 50" fill="#8B4513"/>
+  
+  <!-- Ojos -->
+  <circle cx="55" cy="47" r="2" fill="#333"/>
+  <circle cx="65" cy="47" r="2" fill="#333"/>
+  
+  <!-- Lágrimas de alegría -->
+  <ellipse cx="53" cy="52" rx="1" ry="3" fill="#87CEEB" opacity="0.7"/>
+  <ellipse cx="67" cy="52" rx="1" ry="3" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Nariz -->
+  <ellipse cx="60" cy="52" rx="1.5" ry="3" fill="#F4A460"/>
+  
+  <!-- Boca sonriente -->
+  <path d="M57 57 Q60 60 63 57" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Aureola -->
+  <circle cx="60" cy="35" r="18" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Flores en el cabello (símbolo de renovación) -->
+  <circle cx="50" cy="40" r="3" fill="#FFB6C1"/>
+  <circle cx="48" cy="38" r="1.5" fill="#FF69B4"/>
+  <circle cx="52" cy="38" r="1.5" fill="#FF69B4"/>
+  <circle cx="50" cy="42" r="1.5" fill="#FF69B4"/>
+  
+  <circle cx="70" cy="42" r="3" fill="#FFB6C1"/>
+  <circle cx="68" cy="40" r="1.5" fill="#FF69B4"/>
+  <circle cx="72" cy="40" r="1.5" fill="#FF69B4"/>
+  <circle cx="70" cy="44" r="1.5" fill="#FF69B4"/>
+  
+  <!-- Corazón en el pecho (amor de Dios) -->
+  <path d="M55 75 Q60 70 65 75 Q60 85 55 75" fill="#FF6B6B"/>
+  
+  <!-- Rayos de luz desde arriba -->
+  <path d="M60 10 L58 25" stroke="#FFD700" stroke-width="2" opacity="0.6"/>
+  <path d="M65 12 L63 27" stroke="#FFD700" stroke-width="1.5" opacity="0.6"/>
+  <path d="M55 12 L57 27" stroke="#FFD700" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Texto "MARÍA MAGDALENA" -->
+  <text x="60" y="150" text-anchor="middle" font-family="serif" font-size="7" fill="#333" font-weight="bold">MARÍA MAGDALENA</text>
+</svg>

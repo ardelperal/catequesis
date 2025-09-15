@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITULO}}</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f7f4;
+            color: #2c3e50;
+            text-align: justify;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #8b4513;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .title {
+            font-size: 2.5em;
+            color: #8b4513;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+        .illustration {
+            width: 120px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 20px auto;
+            display: block;
+        }
+        .section {
+            background: white;
+            margin: 25px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #8b4513;
+            text-align: justify;
+        }
+        .section h2 {
+            color: #8b4513;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .prayer-box {
+            background: linear-gradient(135deg, #f5f3f0 0%, #e8e4df 100%);
+            border: 2px solid #d4af37;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+        }
+        .activity-box {
+            background: linear-gradient(135deg, #e8f4f8 0%, #d1e7dd 100%);
+            border: 2px solid #20c997;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: justify;
+        }
+        .reflection-box {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: justify;
+        }
+        .bible-verse {
+            font-style: italic;
+            color: #8b4513;
+            text-align: center;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+        .print-friendly {
+            page-break-inside: avoid;
+        }
+        @media print {
+            body { background-color: white; }
+            .section { box-shadow: none; border: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">{{TITULO}}</h1>
+        <p class="subtitle">{{SUBTITULO}}</p>
+        <img src="../assets/characters/{{PERSONAJE_SLUG}}.png" alt="{{PERSONAJE}}" class="illustration">
+    </div>
+
+    <div class="section print-friendly">
+        <h2>🙏 Oración Inicial</h2>
+        <div class="prayer-box">
+            {{ORACION_INICIAL}}
+        </div>
+        <div class="bible-verse">
+            {{CITA_BIBLICA}}
+        </div>
+    </div>
+
+    <div class="section print-friendly">
+        <h2>📖 Historia de {{PERSONAJE}}</h2>
+        {{RESUMEN_HISTORIA}}
+    </div>
+
+    <div class="section print-friendly">
+        <h2>🎨 Actividad Creativa</h2>
+        <div class="activity-box">
+            {{ACTIVIDAD_CREATIVA}}
+        </div>
+    </div>
+
+    <div class="section print-friendly">
+        <h2>💭 Reflexión</h2>
+        <div class="reflection-box">
+            <h3>Preguntas para pensar:</h3>
+            <ul>
+                {{PREGUNTAS_REFLEXION}}
+            </ul>
+            
+            <p><strong>Mensaje principal:</strong> {{MENSAJE_PRINCIPAL}}</p>
+        </div>
+    </div>
+
+    <div class="section print-friendly">
+        <h2>🙏 Oración Final</h2>
+        <div class="prayer-box">
+            {{ORACION_FINAL}}
+        </div>
+        <div class="bible-verse">
+            {{CITA_BIBLICA_FINAL}}
+        </div>
+    </div>
+</body>
+</html>

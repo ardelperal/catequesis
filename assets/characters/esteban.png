@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+  <!-- Fondo -->
+  <rect width="120" height="160" fill="#f8f9fa"/>
+  
+  <!-- Túnica de diácono -->
+  <ellipse cx="60" cy="130" rx="35" ry="25" fill="#FFFFFF"/>
+  <rect x="25" y="80" width="70" height="50" fill="#FFFFFF" rx="5"/>
+  
+  <!-- Dalmática (vestidura de diácono) -->
+  <path d="M20 85 Q60 80 100 85 L95 135 Q60 130 25 135 Z" fill="#8B0000"/>
+  
+  <!-- Brazos -->
+  <ellipse cx="35" cy="95" rx="8" ry="20" fill="#FDBCB4"/>
+  <ellipse cx="85" cy="95" rx="8" ry="20" fill="#FDBCB4"/>
+  
+  <!-- Manos -->
+  <circle cx="35" cy="110" r="6" fill="#FDBCB4"/>
+  <circle cx="85" cy="110" r="6" fill="#FDBCB4"/>
+  
+  <!-- Libro de los Evangelios en mano izquierda -->
+  <rect x="28" y="105" width="14" height="10" fill="#8B4513" rx="1"/>
+  <rect x="29" y="106" width="12" height="8" fill="#F5F5DC" rx="1"/>
+  <path d="M35 110 L35 114" stroke="#FFD700" stroke-width="1"/>
+  
+  <!-- Piedras en mano derecha (símbolo del martirio, pero de forma suave) -->
+  <circle cx="82" cy="108" r="2" fill="#A0A0A0"/>
+  <circle cx="86" cy="110" r="1.5" fill="#808080"/>
+  <circle cx="84" cy="112" r="1.5" fill="#909090"/>
+  
+  <!-- Cabeza -->
+  <circle cx="60" cy="50" r="20" fill="#FDBCB4"/>
+  
+  <!-- Cabello joven -->
+  <path d="M45 35 Q60 25 75 35 Q75 50 60 55 Q45 50 45 35" fill="#8B4513"/>
+  
+  <!-- Ojos -->
+  <circle cx="55" cy="47" r="2" fill="#333"/>
+  <circle cx="65" cy="47" r="2" fill="#333"/>
+  
+  <!-- Nariz -->
+  <ellipse cx="60" cy="52" rx="1.5" ry="3" fill="#F4A460"/>
+  
+  <!-- Boca sonriente -->
+  <path d="M57 57 Q60 60 63 57" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Aureola -->
+  <circle cx="60" cy="35" r="18" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Estola de diácono -->
+  <rect x="58" y="70" width="4" height="40" fill="#FFD700"/>
+  <path d="M58 110 L62 110 L60 115 Z" fill="#FFD700"/>
+  
+  <!-- Cruz en la estola -->
+  <line x1="58" y1="85" x2="62" y2="85" stroke="#8B0000" stroke-width="1"/>
+  <line x1="60" y1="83" x2="60" y2="87" stroke="#8B0000" stroke-width="1"/>
+  
+  <!-- Palma del martirio (símbolo suave) -->
+  <path d="M95 40 Q100 35 105 40 Q100 45 95 40" fill="#228B22"/>
+  <path d="M97 42 Q102 37 107 42 Q102 47 97 42" fill="#32CD32"/>
+  <path d="M99 44 Q104 39 109 44 Q104 49 99 44" fill="#90EE90"/>
+  
+  <!-- Texto "SAN ESTEBAN" -->
+  <text x="60" y="150" text-anchor="middle" font-family="serif" font-size="8" fill="#333" font-weight="bold">SAN ESTEBAN</text>
+</svg>
