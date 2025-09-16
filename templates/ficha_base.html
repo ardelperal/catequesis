@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha: {{PERSONAJE}}</title>
+    <link rel="stylesheet" href="../styles/print.css">
+</head>
+<body>
+    <!-- Página 1 -->
+    <section class="sheet">
+        <header>
+            <h1>{{EMOJI}} {{PERSONAJE}} — {{SUBTITULO}}</h1>
+            <p class="bajada">{{FRASE_RESUMEN}}</p>
+            <p><strong>Nombre:</strong> __________________  <strong>Fecha:</strong> ______________</p>
+            <!-- Imagen opcional del personaje -->
+            <figure>
+                <img src="../assets/characters/{{SLUG}}.png" alt="{{PERSONAJE}}" style="width: 120px; height: 160px; object-fit: cover; border-radius: 8px; margin: 15px auto; display: block;">
+            </figure>
+        </header>
+
+        <section>
+            <h2>Oración inicial</h2>
+            <p>{{ORACION_INICIAL}}</p>
+        </section>
+
+        <section>
+            <h2>Cita bíblica</h2>
+            <blockquote>"{{CITA_TEXTO}}" <small>({{CITA_REFERENCIA}})</small></blockquote>
+        </section>
+
+        <section>
+            <h2>Historia</h2>
+            <p>{{HISTORIA}}</p>
+        </section>
+
+        <section>
+            <h2>Mensaje principal</h2>
+            <p><strong>{{MENSAJE_PRINCIPAL}}</strong></p>
+        </section>
+    </section>
+
+    <!-- Página 2 -->
+    <section class="sheet">
+        <section>
+            <h2>Actividad: Dibuja</h2>
+            <p>{{ACTIVIDAD_DIBUJO}}</p>
+            <!-- Espacio en blanco para dibujar -->
+            <div style="height: 120px; border: 1px dashed #ccc; margin: 15px 0; background: #fafafa;"></div>
+        </section>
+
+        <section>
+            <h2>Escribe una frase</h2>
+            <p>¿Qué le dirías a Dios hoy?</p>
+            <p>______________________________________________________________________</p>
+            <p>______________________________________________________________________</p>
+        </section>
+
+        <section>
+            <h2>Para pensar y escribir</h2>
+            <ol>
+                <li>{{PREGUNTA_1}}</li>
+                <li>{{PREGUNTA_2}}</li>
+                <li>{{PREGUNTA_3}}</li>
+            </ol>
+            <p>______________________________________________________________________</p>
+            <p>______________________________________________________________________</p>
+            <p>______________________________________________________________________</p>
+        </section>
+
+        <section>
+            <h2>Oración de compromiso</h2>
+            <p>{{ORACION_COMPROMISO}} Padre Nuestro…</p>
+        </section>
+    </section>
+</body>
+</html>
