@@ -1,6 +1,6 @@
 # Proyecto de Catequesis - Fichas de Personajes Bíblicos
 
-Este proyecto contiene **49 fichas interactivas** de personajes bíblicos para catequesis, diseñadas especialmente para niños de 10-13 años en preparación para la Primera Comunión y Confirmación.
+Este proyecto contiene **49 fichas interactivas** de personajes bíblicos para catequesis de Primera Comunión.
 
 ## 🌟 Características Principales
 
