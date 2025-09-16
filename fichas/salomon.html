@@ -4,163 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salomón - La Sabiduría y el Templo</title>
-<link rel="stylesheet" href="../styles/print.css">
-    <style>
-        @page {
-            size: A4;
-            margin: 2cm;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: white;
-        }
-        
-        .container {
-            max-width: 210mm;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 3px solid #8B4513;
-            padding-bottom: 15px;
-        }
-        
-        .header h1 {
-            font-size: 28px;
-            color: #8B4513;
-            margin-bottom: 10px;
-        }
-        
-        .header .subtitle {
-            font-size: 16px;
-            color: #666;
-            font-style: italic;
-        }
-        
-        .student-info {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 25px;
-            font-weight: bold;
-        }
-        
-        .section {
-            margin-bottom: 25px;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        
-        .section-title {
-            background: linear-gradient(135deg, #8B4513, #A0522D);
-            color: white;
-            padding: 12px 20px;
-            font-weight: bold;
-            font-size: 16px;
-        }
-        
-        .section-content {
-            padding: 20px;
-            background: #fafafa;
-        }
-        
-        .prayer-box {
-            background: #e8f4f8;
-            border-left: 4px solid #4a90e2;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-        
-        .bible-quote {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 10px 15px;
-            margin: 10px 0;
-            font-style: italic;
-            border-radius: 5px;
-        }
-        
-        .story-content {
-            display: flex;
-            gap: 20px;
-            align-items: flex-start;
-        }
-        
-        .story-text {
-            flex: 1;
-        }
-        
-        .story-image {
-            width: 120px;
-            height: 160px;
-            border: 2px solid #8B4513;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #f9f9f9;
-            flex-shrink: 0;
-        }
-        
-        .story-image img {
-            max-width: 100%;
-            max-height: 100%;
-            border-radius: 8px;
-        }
-        
-        .activity-box {
-            background: #f0f8e8;
-            border: 2px dashed #28a745;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 8px;
-            min-height: 120px;
-        }
-        
-        .reflection-box {
-            background: #fef7e0;
-            border-left: 4px solid #ff9800;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-        
-        .question {
-            margin: 15px 0;
-            font-weight: bold;
-            color: #333;
-        }
-        
-        .answer-line {
-            border-bottom: 1px solid #ccc;
-            height: 25px;
-            margin: 8px 0;
-        }
-        
-        @media print {
-            .container {
-                max-width: none;
-                padding: 0;
-            }
-            
-            .section {
-                break-inside: avoid;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/fichas.css">
 </head>
 <body>
   <section class="sheet">
@@ -168,6 +12,10 @@
     <div class="contenido">
     <div class="container">
         <div class="header">
+            <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin-bottom: 8px;">
+                <img src="../assets/characters/logo/logo.png" alt="Logo Parroquia" style="width: 30px; height: auto; margin-right: 8px; margin-top: -5px;">
+                <span style="font-size: 12px; color: #666; font-style: italic; line-height: 1.2;">Parroquia Nuestra Señora del Pino</span>
+            </div>
             <h1>👑 Salomón - La Sabiduría y el Templo 🏛️</h1>
             <div class="subtitle">El rey sabio que construyó la casa de Dios</div>
         </div>
@@ -193,6 +41,7 @@
             <div class="section-title">📖 LA HISTORIA DE SALOMÓN</div>
             <div class="section-content">
                 <div class="story-content">
+                    <img src="../assets/characters/salomon.png" alt="Salomón" class="story-image">
                     <div class="story-text">
                         <p><strong>Salomón</strong> fue el tercer rey de Israel, hijo del rey David. Cuando era joven, Dios se le apareció en sueños y le dijo: "Pide lo que quieras". Salomón no pidió riquezas ni poder, sino <strong>sabiduría</strong> para gobernar bien a su pueblo.</p>
                         
@@ -202,9 +51,6 @@
                         
                         <p><strong>Mensaje principal:</strong> La verdadera sabiduría viene de Dios y se demuestra en nuestras decisiones justas y en cómo servimos a los demás. Como Salomón, debemos pedir a Dios que nos ayude a ser sabios.</p>
                     </div>
-                    <div class="story-image">
-                        <img src="../assets/characters/salomon.png" alt="Salomón">
-                    </div>
                 </div>
             </div>
         </div>
@@ -212,12 +58,12 @@
         <div class="section">
             <div class="section-title">🎨 ACTIVIDAD CREATIVA</div>
             <div class="section-content">
-                <p><strong>"El Templo de Salomón"</strong></p>
-                <p>Dibuja el magnífico templo que construyó Salomón para Dios. Puedes incluir columnas, decoraciones doradas y a Salomón orando en el templo.</p>
+                <p style="font-size: 16px; margin-bottom: 15px;"><strong>"El Templo de Salomón"</strong></p>
+                <p style="font-size: 15px; line-height: 1.6; margin-bottom: 20px;">Dibuja el magnífico templo que construyó Salomón para Dios. Puedes incluir columnas, decoraciones doradas y a Salomón orando en el templo.</p>
                 <div class="activity-box">
                     <!-- Espacio para dibujar -->
                 </div>
-                <p><strong>Escribe una frase:</strong> ¿Qué le pedirías a Dios si te dijera "pide lo que quieras"?</p>
+                <p style="font-size: 15px; font-weight: bold; margin: 25px 0 15px 0;"><strong>Escribe una frase:</strong> ¿Qué significa para ti ser sabio como Salomón?</p>
                 <div class="answer-line"></div>
                 <div class="answer-line"></div>
             </div>

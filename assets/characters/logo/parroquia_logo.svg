@@ -1,0 +1,33 @@
+<svg width="200" height="400" viewBox="0 0 200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Manto exterior -->
+  <path d="M100 50C60 50 30 80 30 120L30 350C30 370 50 390 70 390L130 390C150 390 170 370 170 350L170 120C170 80 140 50 100 50Z" fill="#2D4A63"/>
+  
+  <!-- Rostro -->
+  <ellipse cx="100" cy="140" rx="25" ry="35" fill="#F5DEB3"/>
+  
+  <!-- Cabello -->
+  <path d="M75 120C75 110 85 100 100 100C115 100 125 110 125 120L125 140C125 150 115 160 100 160C85 160 75 150 75 140Z" fill="#8B4513"/>
+  
+  <!-- Velo azul -->
+  <path d="M80 115C80 105 90 95 100 95C110 95 120 105 120 115L120 180C120 190 110 200 100 200C90 200 80 190 80 180Z" fill="#4682B4"/>
+  
+  <!-- Ojos -->
+  <ellipse cx="92" cy="135" rx="3" ry="4" fill="black"/>
+  <ellipse cx="108" cy="135" rx="3" ry="4" fill="black"/>
+  
+  <!-- Nariz -->
+  <path d="M100 140L98 145L102 145Z" fill="#E6C2A6"/>
+  
+  <!-- Boca -->
+  <path d="M97 150C97 152 101 152 103 150" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Túnica -->
+  <path d="M70 180L70 350C70 365 80 375 95 375L105 375C120 375 130 365 130 350L130 180C130 175 125 170 120 170L80 170C75 170 70 175 70 180Z" fill="#8B0000"/>
+  
+  <!-- Manos en oración -->
+  <ellipse cx="85" cy="220" rx="8" ry="15" fill="#F5DEB3"/>
+  <ellipse cx="115" cy="220" rx="8" ry="15" fill="#F5DEB3"/>
+  
+  <!-- Aureola -->
+  <circle cx="100" cy="120" r="35" stroke="#FFD700" stroke-width="2" fill="none"/>
+</svg>
