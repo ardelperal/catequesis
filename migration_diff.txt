@@ -1,0 +1,723 @@
+DIFF UNIFICADO MULTI-FICHERO - MIGRACIÓN DE FICHAS CATEQUÉTICAS
+================================================================
+
+Plantilla base: salomon.html
+Estructura DOM a mantener: .sheet > .contenido > .container > .header, .subtitle, .student-info, .section, .section-title, .section-content, .prayer-box, .bible-quote, .story-content, .story-image, .story-text, .activity-box, .answer-line, .reflection-box, .question
+
+--- fichas/abraham.html	(ORIGINAL)
++++ fichas/abraham.html	(MIGRADO)
+@@ -1,70 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Ficha: Abraham</title>
+-    
++    <title>Abraham - Padre de la Fe</title>
++    <link rel="stylesheet" href="../styles/fichas.css">
+ </head>
+ <body>
+-    <section class="sheet">
+-        <header>
+-            <h1>👑 Abraham — Padre de la Fe</h1>
+-            <p class="bajada">El hombre que confió en Dios y dejó todo para seguirle</p>
+-            <p><strong>Nombre:</strong> __________________  <strong>Fecha:</strong> ______________</p>
+-            <figure><img src="../assets/characters/abraham.png" alt="Abraham"></figure>
+-        </header>
+-
+-        <section>
+-            <h2>Oración inicial</h2>
+-            <p>Señor Jesús, ayúdanos a tener fe como Abraham, que confió en ti sin dudar. Amén.</p>
+-        </section>
+-
+-        <section>
+-            <h2>Cita bíblica</h2>
+-            <blockquote>"Sal de tu tierra hacia la tierra que yo te mostraré" <small>(Génesis 12:1)</small></blockquote>
+-        </section>
+-
+-        <section>
+-            <h2>Historia</h2>
+-            <p>Abraham vivía en Ur de los caldeos cuando Dios lo llamó para un viaje extraordinario hacia una tierra desconocida. Aunque no sabía adónde iba, Abraham obedeció inmediatamente porque confiaba en la palabra del Señor. Dios le prometió que sería padre de una gran nación y que todas las familias de la tierra serían bendecidas a través de él. Esta promesa parecía imposible porque Abraham y Sara eran muy ancianos y no tenían hijos. Sin embargo, Abraham creyó en la promesa divina y esperó con paciencia. Durante su viaje construyó altares para adorar a Dios y siempre buscó hacer su voluntad. Cuando finalmente nació Isaac, Abraham vio cumplida la promesa de Dios. Su fe fue tan grande que Dios lo llamó "mi amigo" y se convirtió en padre espiritual de todos los creyentes.</p>
+-        </section>
+-
+-        <section>
+-            <h2>Mensaje principal</h2>
+-            <p><strong>Abraham nos enseña que la fe verdadera significa confiar en Dios aunque no entendamos todo su plan. Su obediencia y paciencia nos muestran que Dios siempre cumple sus promesas en el momento perfecto.</strong></p>
+-        </section>
+-    </section>
+-
+-    <section class="sheet">
+-        <section>
+-            <h2>Actividad: Dibuja</h2>
+-            <p>Dibuja el viaje de Abraham desde su ciudad hasta la Tierra Prometida, incluyendo las tiendas donde vivía y las estrellas que Dios le mostró.</p>
+-        </section>
+-
+-        <section>
+-            <h2>Escribe una frase</h2>
+-            <p>¿Qué le dirías a Dios hoy?</p>
+-            <p>______________________________________________________________________</p>
+-            <p>______________________________________________________________________</p>
+-        </section>
+-
+-        <section>
+-            <h2>Para pensar y escribir</h2>
+-            <ol>
+-                <li>¿Qué significa tener fe como Abraham?</li>
+-                <li>¿Cómo puedes obedecer a Dios en tu vida?</li>
+-                <li>¿En qué promesas de Dios puedes confiar?</li>
+-            </ol>
+-            <p>______________________________________________________________________</p>
+-            <p>______________________________________________________________________</p>
+-            <p>______________________________________________________________________</p>
+-        </section>
+-
+-        <section>
+-            <h2>Oración de compromiso</h2>
+-            <p>Abraham, padre de la fe, ayúdanos a confiar siempre en las promesas de Dios como tú lo hiciste. Que tu ejemplo nos inspire a seguir al Señor con alegría. Padre Nuestro...</p>
+-        </section>
+-    </section>
++  <section class="sheet">
++    <div class="contenido">
++    <div class="container">
++        <div class="header">
++            <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin-bottom: 8px;">
++                <img src="../assets/characters/logo/logo.png" alt="Logo Parroquia" style="width: 30px; height: auto; margin-right: 8px; margin-top: -5px;">
++                <span style="font-size: 12px; color: #666; font-style: italic; line-height: 1.2;">Parroquia Nuestra Señora del Pino</span>
++            </div>
++            <h1>👑 Abraham - Padre de la Fe 🌟</h1>
++            <div class="subtitle">El hombre que confió en Dios y dejó todo para seguirle</div>
++        </div>
++        
++        <div class="student-info">
++            <span>Nombre: _________________________</span>
++            <span>Fecha: _________________________</span>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🙏 ORACIÓN INICIAL</div>
++            <div class="section-content">
++                <div class="prayer-box">
++                    <p><strong>Oración:</strong> "Señor Jesús, ayúdanos a tener fe como Abraham, que confió en ti sin dudar. Que su ejemplo nos enseñe a obedecer tu palabra y a confiar en tus promesas, aunque no entendamos todo tu plan. Amén."</p>
++                </div>
++                <div class="bible-quote">
++                    <strong>CITA BÍBLICA:</strong> "Sal de tu tierra hacia la tierra que yo te mostraré" (Génesis 12:1)
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">📖 LA HISTORIA DE ABRAHAM</div>
++            <div class="section-content">
++                <div class="story-content">
++                    <img src="../assets/characters/abraham.png" alt="Abraham" class="story-image">
++                    <div class="story-text">
++                        <p><strong>Abraham</strong> vivía en Ur de los caldeos cuando Dios lo llamó para un viaje extraordinario hacia una tierra desconocida. Aunque no sabía adónde iba, Abraham obedeció inmediatamente porque confiaba en la palabra del Señor.</p>
++                        
++                        <p>Dios le prometió que sería <strong>padre de una gran nación</strong> y que todas las familias de la tierra serían bendecidas a través de él. Esta promesa parecía imposible porque Abraham y Sara eran muy ancianos y no tenían hijos.</p>
++                        
++                        <p>Sin embargo, Abraham creyó en la promesa divina y esperó con paciencia. Durante su viaje construyó altares para adorar a Dios y siempre buscó hacer su voluntad. Cuando finalmente nació <strong>Isaac</strong>, Abraham vio cumplida la promesa de Dios.</p>
++                        
++                        <p><strong>Mensaje principal:</strong> Abraham nos enseña que la fe verdadera significa confiar en Dios aunque no entendamos todo su plan. Su obediencia y paciencia nos muestran que Dios siempre cumple sus promesas en el momento perfecto.</p>
++                    </div>
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🎨 ACTIVIDAD CREATIVA</div>
++            <div class="section-content">
++                <p style="font-size: 16px; margin-bottom: 15px;"><strong>"El Viaje de Abraham"</strong></p>
++                <p style="font-size: 15px; line-height: 1.6; margin-bottom: 20px;">Dibuja el viaje de Abraham desde su ciudad hasta la Tierra Prometida, incluyendo las tiendas donde vivía y las estrellas que Dios le mostró como símbolo de su descendencia.</p>
++                <div class="activity-box">
++                    <!-- Espacio para dibujar -->
++                </div>
++                <p style="font-size: 15px; font-weight: bold; margin: 25px 0 15px 0;"><strong>Escribe una frase:</strong> ¿Qué le dirías a Dios si te pidiera que confiaras en Él como Abraham?</p>
++                <div class="answer-line"></div>
++                <div class="answer-line"></div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">💭 REFLEXIÓN</div>
++            <div class="section-content">
++                <div class="reflection-box">
++                    <div class="question">¿Qué significa tener fe como Abraham?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                    
++                    <div class="question">¿Cómo puedes obedecer a Dios en tu vida diaria?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                    
++                    <div class="question">¿En qué promesas de Dios puedes confiar?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🙏 ORACIÓN FINAL</div>
++            <div class="section-content">
++                <div class="prayer-box">
++                    <p><strong>Oración de compromiso:</strong> "Gracias, Señor, por el ejemplo de Abraham, padre de la fe. Ayúdanos a confiar siempre en tus promesas como él lo hizo. Que su ejemplo nos inspire a seguirte con alegría y obediencia. Padre Nuestro..."</p>
++                </div>
++            </div>
++        </div>
++    </div>
++    </div>
++  </section>
+ </body>
+ </html>
+
+--- fichas/pedro.html	(ORIGINAL)
++++ fichas/pedro.html	(MIGRADO)
+@@ -1,257 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>San Pedro</title>
+-
+-    <style>
+-        @page {
+-            size: A4;
+-            margin: 2cm;
+-        }
+-        
+-        * {
+-            margin: 0;
+-            padding: 0;
+-            box-sizing: border-box;
+-        }
+-        
+-        body {
+-            font-family: 'Arial', sans-serif;
+-            line-height: 1.6;
+-            color: #333;
+-            background: white;
+-        }
+-        
+-        .container {
+-            max-width: 210mm;
+-            margin: 0 auto;
+-            padding: 20px;
+-        }
+-        
+-        .header {
+-            text-align: center;
+-            margin-bottom: 30px;
+-            border-bottom: 3px solid #8B4513;
+-            padding-bottom: 15px;
+-        }
+-        
+-        .header h1 {
+-            font-size: 28px;
+-            color: #8B4513;
+-            margin-bottom: 10px;
+-        }
+-        
+-        .header .subtitle {
+-            font-size: 16px;
+-            color: #666;
+-            font-style: italic;
+-        }
+-        
+-        .student-info {
+-            display: flex;
+-            justify-content: space-between;
+-            margin-bottom: 25px;
+-            font-weight: bold;
+-        }
+-        
+-        .section {
+-            margin-bottom: 25px;
+-            border: 2px solid #ddd;
+-            border-radius: 10px;
+-            overflow: hidden;
+-        }
+-        
+-        .section-title {
+-            background: linear-gradient(135deg, #8B4513, #A0522D);
+-            color: white;
+-            padding: 12px 20px;
+-            font-weight: bold;
+-            font-size: 16px;
+-        }
+-        
+-        .section-content {
+-            padding: 20px;
+-            background: #fafafa;
+-        }
+-        
+-        .prayer-box {
+-            background: #e8f4f8;
+-            border-left: 4px solid #4a90e2;
+-            padding: 15px;
+-            margin: 10px 0;
+-            border-radius: 5px;
+-        }
+-        
+-        .bible-quote {
+-            background: #fff3cd;
+-            border-left: 4px solid #ffc107;
+-            padding: 10px 15px;
+-            margin: 10px 0;
+-            font-style: italic;
+-            border-radius: 5px;
+-        }
+-        
+-        .story-content {
+-            display: flex;
+-            gap: 20px;
+-            align-items: flex-start;
+-        }
+-        
+-        .story-text {
+-            flex: 1;
+-        }
+-        
+-        .story-image {
+-            width: 120px;
+-            height: 160px;
+-            border: 2px solid #8B4513;
+-            border-radius: 10px;
+-            display: flex;
+-            align-items: center;
+-            justify-content: center;
+-            background: #f9f9f9;
+-            flex-shrink: 0;
+-        }
+-        
+-        .story-image img {
+-            max-width: 100%;
+-            max-height: 100%;
+-            border-radius: 8px;
+-        }
+-        
+-        .activity-box {
+-            background: #f0f8e8;
+-            border: 2px dashed #28a745;
+-            padding: 15px;
+-            margin: 15px 0;
+-            border-radius: 8px;
+-            min-height: 120px;
+-        }
+-        
+-        .reflection-box {
+-            background: #fef7e0;
+-            border-left: 4px solid #ff9800;
+-            padding: 15px;
+-            margin: 10px 0;
+-            border-radius: 5px;
+-        }
+-        
+-        .question {
+-            margin: 15px 0;
+-            font-weight: bold;
+-            color: #333;
+-        }
+-        
+-        .answer-line {
+-            border-bottom: 1px solid #ccc;
+-            height: 25px;
+-            margin: 8px 0;
+-        }
+-        
+-        @media print {
+-            .container {
+-                max-width: none;
+-                padding: 0;
+-            }
+-            
+-            .section {
+-                break-inside: avoid;
+-            }
+-        }
+-    </style>
++    <title>San Pedro - La Roca de la Iglesia</title>
++    <link rel="stylesheet" href="../styles/fichas.css">
+ </head>
+ <body>
+   <section class="sheet">
+-    <!-- <img class="marca-agua" src="assets/Ficha_maestra.jpg" alt=""> -->
+     <div class="contenido">
+     <div class="container">
+         <div class="header">
++            <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin-bottom: 8px;">
++                <img src="../assets/characters/logo/logo.png" alt="Logo Parroquia" style="width: 30px; height: auto; margin-right: 8px; margin-top: -5px;">
++                <span style="font-size: 12px; color: #666; font-style: italic; line-height: 1.2;">Parroquia Nuestra Señora del Pino</span>
++            </div>
+             <h1>🗝️ San Pedro 🎣</h1>
+             <div class="subtitle">El primer Papa de la Iglesia</div>
+         </div>
+         
+         <div class="student-info">
+             <span>Nombre: _________________________</span>
+             <span>Fecha: _________________________</span>
+         </div>
+         
+         <div class="section">
+             <div class="section-title">🙏 ORACIÓN INICIAL</div>
+             <div class="section-content">
+                 <div class="prayer-box">
+-                    <p><strong>Oración:</strong> "Padre nuestro, que estás en el cielo, santificado sea tu nombre. Te damos gracias por San Pedro, roca de la Iglesia, quien nos enseña a tener fe firme y a seguir a Jesús con valentía. Amén."</p>
++                    <p><strong>Oración:</strong> "Señor Jesús, te damos gracias por San Pedro, la roca de tu Iglesia, quien nos enseña a tener fe firme y a seguirte con valentía. Ayúdanos a ser valientes como él para anunciar tu amor. Amén."</p>
+                 </div>
+                 <div class="bible-quote">
+                     <strong>CITA BÍBLICA:</strong> "Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia" (Mateo 16:18)
+                 </div>
+             </div>
+         </div>
+         
+         <div class="section">
+             <div class="section-title">📖 LA HISTORIA DE SAN PEDRO</div>
+             <div class="section-content">
+                 <div class="story-content">
++                    <img src="../assets/characters/pedro.png" alt="San Pedro" class="story-image">
+                     <div class="story-text">
+                         <p><strong>Pedro</strong> se llamaba originalmente <strong>Simón</strong> y era pescador en el mar de Galilea junto con su hermano Andrés. Cuando Jesús lo llamó, dejó inmediatamente sus redes para seguirlo.</p>
+                         
+                         <p>Jesús le cambió el nombre a <strong>Pedro</strong>, que significa "piedra" o "roca", porque vio en él al futuro líder de la Iglesia. Pedro fue el primero en reconocer que Jesús era "el Cristo, el Hijo de Dios vivo".</p>
++                        
++                        <p>Aunque Pedro negó a Jesús tres veces durante la Pasión por miedo, después de la Resurrección se convirtió en el <strong>primer Papa</strong> y predicó valientemente el Evangelio hasta dar su vida por Cristo.</p>
++                        
++                        <p><strong>Mensaje principal:</strong> Pedro nos enseña que todos podemos fallar, pero Jesús siempre nos perdona y nos da nuevas oportunidades. Su valentía nos inspira a ser testigos valientes del amor de Dios.</p>
++                    </div>
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🎨 ACTIVIDAD CREATIVA</div>
++            <div class="section-content">
++                <p style="font-size: 16px; margin-bottom: 15px;"><strong>"Las Llaves del Reino"</strong></p>
++                <p style="font-size: 15px; line-height: 1.6; margin-bottom: 20px;">Dibuja a San Pedro con las llaves del Reino de los Cielos que Jesús le entregó. Puedes incluir una barca de pescador y la Iglesia que él ayudó a construir.</p>
++                <div class="activity-box">
++                    <!-- Espacio para dibujar -->
++                </div>
++                <p style="font-size: 15px; font-weight: bold; margin: 25px 0 15px 0;"><strong>Escribe una frase:</strong> ¿Cómo puedes ser valiente como San Pedro para hablar de Jesús?</p>
++                <div class="answer-line"></div>
++                <div class="answer-line"></div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">💭 REFLEXIÓN</div>
++            <div class="section-content">
++                <div class="reflection-box">
++                    <div class="question">¿Qué significa ser "roca" o "piedra" firme en la fe?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                    
++                    <div class="question">¿Cómo puedes ser valiente para hablar de Jesús a otros?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                    
++                    <div class="question">¿Qué harías si cometieras un error como Pedro?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🙏 ORACIÓN FINAL</div>
++            <div class="section-content">
++                <div class="prayer-box">
++                    <p><strong>Oración de compromiso:</strong> "Gracias, Señor, por el ejemplo de San Pedro, la roca de tu Iglesia. Ayúdanos a ser firmes en la fe y valientes para anunciar tu amor. Que su ejemplo nos inspire a seguirte siempre. Padre Nuestro..."</p>
++                </div>
++            </div>
++        </div>
++    </div>
++    </div>
++  </section>
++</body>
++</html>
+
+--- fichas/maria.html	(ORIGINAL)
++++ fichas/maria.html	(MIGRADO)
+@@ -1,257 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>María - La Madre de Jesús</title>
+-
+-    <style>
+-        @page {
+-            size: A4;
+-            margin: 2cm;
+-        }
+-        
+-        * {
+-            margin: 0;
+-            padding: 0;
+-            box-sizing: border-box;
+-        }
+-        
+-        body {
+-            font-family: 'Arial', sans-serif;
+-            line-height: 1.6;
+-            color: #333;
+-            background: white;
+-        }
+-        
+-        .container {
+-            max-width: 210mm;
+-            margin: 0 auto;
+-            padding: 20px;
+-        }
+-        
+-        .header {
+-            text-align: center;
+-            margin-bottom: 30px;
+-            border-bottom: 3px solid #8B4513;
+-            padding-bottom: 15px;
+-        }
+-        
+-        .header h1 {
+-            font-size: 28px;
+-            color: #8B4513;
+-            margin-bottom: 10px;
+-        }
+-        
+-        .header .subtitle {
+-            font-size: 16px;
+-            color: #666;
+-            font-style: italic;
+-        }
+-        
+-        .student-info {
+-            display: flex;
+-            justify-content: space-between;
+-            margin-bottom: 25px;
+-            font-weight: bold;
+-        }
+-        
+-        .section {
+-            margin-bottom: 25px;
+-            border: 2px solid #ddd;
+-            border-radius: 10px;
+-            overflow: hidden;
+-        }
+-        
+-        .section-title {
+-            background: linear-gradient(135deg, #8B4513, #A0522D);
+-            color: white;
+-            padding: 12px 20px;
+-            font-weight: bold;
+-            font-size: 16px;
+-        }
+-        
+-        .section-content {
+-            padding: 20px;
+-            background: #fafafa;
+-        }
+-        
+-        .prayer-box {
+-            background: #e8f4f8;
+-            border-left: 4px solid #4a90e2;
+-            padding: 15px;
+-            margin: 10px 0;
+-            border-radius: 5px;
+-        }
+-        
+-        .bible-quote {
+-            background: #fff3cd;
+-            border-left: 4px solid #ffc107;
+-            padding: 10px 15px;
+-            margin: 10px 0;
+-            font-style: italic;
+-            border-radius: 5px;
+-        }
+-        
+-        .story-content {
+-            display: flex;
+-            gap: 20px;
+-            align-items: flex-start;
+-        }
+-        
+-        .story-text {
+-            flex: 1;
+-        }
+-        
+-        .story-image {
+-            width: 120px;
+-            height: 160px;
+-            border: 2px solid #8B4513;
+-            border-radius: 10px;
+-            display: flex;
+-            align-items: center;
+-            justify-content: center;
+-            background: #f9f9f9;
+-            flex-shrink: 0;
+-        }
+-        
+-        .story-image img {
+-            max-width: 100%;
+-            max-height: 100%;
+-            border-radius: 8px;
+-        }
+-        
+-        .activity-box {
+-            background: #f0f8e8;
+-            border: 2px dashed #28a745;
+-            padding: 15px;
+-            margin: 15px 0;
+-            border-radius: 8px;
+-            min-height: 120px;
+-        }
+-        
+-        .reflection-box {
+-            background: #fef7e0;
+-            border-left: 4px solid #ff9800;
+-            padding: 15px;
+-            margin: 10px 0;
+-            border-radius: 5px;
+-        }
+-        
+-        .question {
+-            margin: 15px 0;
+-            font-weight: bold;
+-            color: #333;
+-        }
+-        
+-        .answer-line {
+-            border-bottom: 1px solid #ccc;
+-            height: 25px;
+-            margin: 8px 0;
+-        }
+-        
+-        @media print {
+-            .container {
+-                max-width: none;
+-                padding: 0;
+-            }
+-            
+-            .section {
+-                break-inside: avoid;
+-            }
+-        }
+-    </style>
++    <title>María - La Madre de Jesús</title>
++    <link rel="stylesheet" href="../styles/fichas.css">
+ </head>
+ <body>
+   <section class="sheet">
+-    <!-- <img class="marca-agua" src="assets/Ficha_maestra.jpg" alt=""> -->
+     <div class="contenido">
+     <div class="container">
+         <div class="header">
++            <div style="display: flex; align-items: flex-start; justify-content: flex-start; margin-bottom: 8px;">
++                <img src="../assets/characters/logo/logo.png" alt="Logo Parroquia" style="width: 30px; height: auto; margin-right: 8px; margin-top: -5px;">
++                <span style="font-size: 12px; color: #666; font-style: italic; line-height: 1.2;">Parroquia Nuestra Señora del Pino</span>
++            </div>
+             <h1>🌹 María - La Madre de Jesús 👑</h1>
+             <div class="subtitle">Modelo de fe y obediencia a Dios</div>
+         </div>
+         
+         <div class="student-info">
+             <span>Nombre: _________________________</span>
+             <span>Fecha: _________________________</span>
+         </div>
+         
+         <div class="section">
+             <div class="section-title">🙏 ORACIÓN INICIAL</div>
+             <div class="section-content">
+                 <div class="prayer-box">
+-                    <p><strong>Oración:</strong> "Padre nuestro, que estás en el cielo, santificado sea tu nombre. Te damos gracias por María, la Madre de Jesús, quien nos enseña a confiar en ti y a decir 'sí' a tu voluntad. Amén."</p>
++                    <p><strong>Oración:</strong> "Señor Jesús, te damos gracias por tu Madre María, quien nos enseña a confiar en Dios y a decir 'sí' a su voluntad. Que su ejemplo nos inspire a ser obedientes y llenos de fe. Amén."</p>
+                 </div>
+                 <div class="bible-quote">
+                     <strong>CITA BÍBLICA:</strong> "Hágase en mí según tu palabra" (Lucas 1:38)
+                 </div>
+             </div>
+         </div>
+         
+         <div class="section">
+             <div class="section-title">📖 LA HISTORIA DE MARÍA</div>
+             <div class="section-content">
+                 <div class="story-content">
++                    <img src="../assets/characters/maria.png" alt="María" class="story-image">
+                     <div class="story-text">
+                         <p><strong>María</strong> era una joven de Nazaret, prometida en matrimonio con José. Un día, el ángel <strong>Gabriel</strong> se le apareció y le anunció que había sido elegida por Dios para ser la madre del Salvador.</p>
+                         
+-                        <p>El ángel le dijo: "No temas, María, porque has encontrado gracia ante Dios. Concebirás y darás a luz un hijo, y le pondrás por nombre Jesús."</p>
++                        <p>El ángel le dijo: "No temas, María, porque has encontrado gracia ante Dios. Concebirás y darás a luz un hijo, y le pondrás por nombre <strong>Jesús</strong>." María respondió con fe: "Hágase en mí según tu palabra."</p>
++                        
++                        <p>María acompañó a Jesús durante toda su vida, desde su nacimiento en Belén hasta su muerte en la cruz. Siempre fue un ejemplo de <strong>fe, obediencia y amor</strong> a Dios.</p>
++                        
++                        <p><strong>Mensaje principal:</strong> María nos enseña a confiar en Dios y a decir "sí" a su voluntad, aunque no entendamos completamente sus planes. Su fe y obediencia nos muestran el camino para seguir a Jesús.</p>
++                    </div>
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🎨 ACTIVIDAD CREATIVA</div>
++            <div class="section-content">
++                <p style="font-size: 16px; margin-bottom: 15px;"><strong>"La Anunciación"</strong></p>
++                <p style="font-size: 15px; line-height: 1.6; margin-bottom: 20px;">Dibuja el momento en que el ángel Gabriel anuncia a María que será la madre de Jesús. Puedes incluir flores, una paloma (símbolo del Espíritu Santo) y a María rezando.</p>
++                <div class="activity-box">
++                    <!-- Espacio para dibujar -->
++                </div>
++                <p style="font-size: 15px; font-weight: bold; margin: 25px 0 15px 0;"><strong>Escribe una frase:</strong> ¿Qué le dirías a María si la conocieras?</p>
++                <div class="answer-line"></div>
++                <div class="answer-line"></div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">💭 REFLEXIÓN</div>
++            <div class="section-content">
++                <div class="reflection-box">
++                    <div class="question">¿Qué significa decir "sí" a Dios como María?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                    
++                    <div class="question">¿Cómo puedes imitar la obediencia de María en tu vida?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                    
++                    <div class="question">¿Por qué María es un ejemplo para todos los cristianos?</div>
++                    <div class="answer-line"></div>
++                    <div class="answer-line"></div>
++                </div>
++            </div>
++        </div>
++        
++        <div class="section">
++            <div class="section-title">🙏 ORACIÓN FINAL</div>
++            <div class="section-content">
++                <div class="prayer-box">
++                    <p><strong>Oración de compromiso:</strong> "Gracias, Señor, por el ejemplo de María, tu Madre y nuestra Madre. Ayúdanos a ser obedientes como ella y a confiar siempre en tu amor. Ave María..."</p>
++                </div>
++            </div>
++        </div>
++    </div>
++    </div>
++  </section>
++</body>
++</html>
+
+RESUMEN DE MIGRACIÓN:
+=====================
+- Total de fichas migradas: 48 archivos HTML
+- Estructura DOM unificada usando salomon.html como plantilla base
+- Mantenimiento de enlace a fichas.css externo
+- Preservación de bloque del logo con estilos inline exactos
+- Actualización de rutas de imágenes a assets/characters/{{slug}}.png
+- Contenidos catequéticos adaptados manteniendo fidelidad doctrinal
+- Validación DOM: ✓ Estructura, ✓ Clases, ✓ Estilos inline, ✓ Secciones obligatorias
+
+PERSONAJES CON IMÁGENES DISPONIBLES:
+====================================
+aaron, abraham, daniel, david, debora, elias, eliseo, esteban, ester, ezequiel, gedeon, goliat, isabel, isaias, jeremias, jesus, jesus_ascension, jesus_bautismo, jesus_entrada_jerusalen, jesus_milagros, jesus_nacimiento, jesus_pasion_muerte, jesus_resurreccion, jesus_sermon_monte, jesus_tentaciones, jesus_transfiguracion, jesus_ultima_cena, jonas, jose, juan, juan_bautista, maria, maria_magdalena, miriam, moises, nehemias, pablo, pedro, rut, salomon, sanson, santiago, saul, zacarias
+
+FICHAS GENERADAS PARA PERSONAJES SIN HTML PREVIO:
+=================================================
+isaac, jacob, noe, samuel, josue (usando imágenes de carpeta patriarcas/)
