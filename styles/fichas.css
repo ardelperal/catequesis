@@ -251,6 +251,22 @@ body {
     clear: both;
 }
 
+/* Nombre del personaje en las tarjetas */
+.character-name {
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Clase para nombres de personajes en el índice */
+.character-name {
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
 /* Estilos para impresión */
 @media print {
     .container {
