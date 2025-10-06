@@ -14,10 +14,10 @@
 
 [[redirects]]
   from = "/"
-  to = "/indice_general.html"
+  to = "/index.html"
   status = 200
 
 [[redirects]]
-  from = "/index.html"
-  to = "/indice_general.html"
+  from = "/indice_general.html"
+  to = "/index.html"
   status = 301
